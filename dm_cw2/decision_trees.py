@@ -9,17 +9,31 @@ import seaborn           as sns
 import matplotlib.pyplot as plt
 from loader          import *
 from naive_bayes     import *
-from sklearn.tree    import DecisionTreeClassifier
+from sklearn.tree    import DecisionTreeClassifier,export_graphviz
 from sklearn.metrics import accuracy_score
 
+from sklearn.externals.six import StringIO
+from IPython.display import Image
+import pydotplus
 
 # =======================================================
 # ------------------- DECISION TREES --------------------
 # =======================================================
 
-def decision_trees_train_test(df,class_feature,ratio=0.2,heatmap=False):
+def decision_trees_train_test(df,class_feature,ratio=0.2,heatmap=False,tree=False):
     '''
-    Runs a decision model over the dataset with the class feature.
+    Runs a decision tree model over the dataset with the class feature.
+    Parameters
+    ==========
+    df: Pandas.DataFrame
+        Dataset to use the classifier on.
+    class_feature: string
+        Feature used as the class attribute.
+    ratio: float
+        Ratio used to separate the train/set dataset. Default 0.2 (80% train, 20% test)
+
+    Returns
+    =======
 
     '''
     print("================================================================")
@@ -45,7 +59,16 @@ def decision_trees_train_test(df,class_feature,ratio=0.2,heatmap=False):
         print("Decision Tree ("+ tree.criterion +") accuracy: ", accuracy_score(target_test, pred, normalize = True))
         # Print the confusion matrix of the model
         print_cmat(target_test,pred,heatmap=heatmap)
+        # Save the graph of the tree
+        if tree: save_graph(tree)
 
+def save_graph(dtree):
+    dot_data = StringIO()
+    export_graphviz(dtree, out_file=dot_data,
+                    filled=True, rounded=True,
+                    special_characters=True)
+    graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
+    Image(graph.create_png())
 
 
 
@@ -72,16 +95,16 @@ if __name__ == "__main__":
 
     df_to_test = [
         # signs,
-        signs_rd,
-        # signs_ba2_rd,
+        # signs_rd,
+        signs_ba2_rd,
         # signs_ba5_rd,
         # signs_ba10_rd,
         # sm_signs,
         # sm_signs_rd,
-        # sm_signs_ba2_rd,
+        sm_signs_ba2_rd,
         # sm_signs_ba5_rd,
         # sm_signs_ba10_rd
     ]
     # Run Bayes over the new sets
     for df in df_to_test:
-        decision_trees_train_test(df,'label',heatmap=False)
+        decision_trees_train_test(df,'label',ratio=0.3,tree=True)

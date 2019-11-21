@@ -5,3 +5,5 @@ opencv-python
 matplotlib
 seaborn
 image
+pydotplus
+IPython

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages  # Always prefer setuptools over distutils
 from codecs import open  # To use a consistent encoding
 from os import path
-import dm_cw1
+import dm_cw2
 
 here = path.abspath(path.dirname(__file__))
 
@@ -10,12 +10,12 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='dm_cw1',
+    name='dm_cw2',
     description='Coursework1 on Data Mining & Machine Learning',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/QDucasse/dm_cw1',
+    url='https://github.com/QDucasse/dm_cw2',
 
     # Author details
     author='Quentin Ducasse',
@@ -53,6 +53,6 @@ setup(
 
     packages=find_packages(),
 
-    install_requires=['numpy', 'matplotlib', 'pandas','sklearn','opencv-python','seaborn','image'],
+    install_requires=['numpy', 'matplotlib', 'pandas','sklearn','opencv-python','seaborn','image','pydotplus','IPython'],
 
 )
