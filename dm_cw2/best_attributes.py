@@ -11,48 +11,6 @@ import seaborn           as sns
 import matplotlib.pyplot as plt
 from loader import *
 from sklearn.metrics         import confusion_matrix,accuracy_score
-from sklearn.naive_bayes     import GaussianNB
-
-# ============================================
-#            NAIVE BAYES BENCHMARK
-# ============================================
-
-def gaussian_train_test(df,class_feature,ratio=0.2,heatmap=False):
-    '''
-    Runs a gaussian model over the dataset with the class feature.
-
-    '''
-    print("================================================================")
-    print("Running Naive Bayes on dataframe '{0}'\nwith class feature '{1}'".format(df.name,class_feature))
-    # Separate train and test data
-    data_train, data_test, target_train, target_test = separate_train_test(df,class_feature,ratio=ratio)
-    # Create a Gaussian Naive Bayes model
-    gnb = GaussianNB()
-    # Train the algorithm on training data and predict using the testing data
-    pred = gnb.fit(data_train, target_train).predict(data_test)
-    # Print the accuracy score of the model
-    print("Naive-Bayes accuracy: ", accuracy_score(target_test, pred, normalize = True))
-    # Print the confusion matrix of the model
-    print_cmat(target_test,pred,heatmap=heatmap)
-
-def print_cmat(actual,pred,heatmap=False):
-    '''
-    Print the confusion matrix for the two provided values.
-    Parameters
-    ==========
-    actual: Pandas.Dataframe
-        Actual values obtained extracted from the dataset.
-    pred: Pandas.Dataframe
-        Actual values obtained through the fit() method of the model.
-    '''
-    cor = pd.crosstab(actual,pred,rownames=['Actual'],colnames=['Predicted'])
-    print(cor)
-    if heatmap:
-        ax = sns.heatmap(cor,annot=True)
-        bottom, top = ax.get_ylim()
-        ax.set_ylim(bottom + 0.5, top - 0.5)
-        plt.show()
-
 
 # ============================================
 #           CORRELATION MATRIX

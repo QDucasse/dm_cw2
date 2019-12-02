@@ -1,0 +1,3035 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 100 -V 0 -S 0 -E 20 -H a -R
+Relation:     signs
+Instances:    2400
+Attributes:   21
+              pixel1280
+              pixel1410
+              pixel1168
+              pixel1171
+              pixel1172
+              pixel1046
+              pixel1696
+              pixel1697
+              pixel1186
+              pixel1319
+              pixel1849
+              pixel1850
+              pixel1084
+              pixel1094
+              pixel1738
+              pixel1232
+              pixel1362
+              pixel1367
+              pixel1120
+              pixel1132
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.6267028876505272
+    Node 10    0.013488909023321794
+    Node 11    -1.4439494379485114
+    Node 12    -5.395446960653527
+    Node 13    -1.7158674390763997
+    Node 14    -4.865235568902132
+    Node 15    -3.9413356423468193
+    Node 16    -3.4641822813958667
+    Node 17    -0.5359726477841498
+    Node 18    2.4262418472765357
+    Node 19    0.04173809034197604
+    Node 20    -0.3818555659634751
+    Node 21    -0.5085237175469219
+    Node 22    2.555665254787062
+    Node 23    -0.010715058660785058
+    Node 24    -4.931040547853759
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.35353480868959536
+    Node 10    -1.8904448905947413
+    Node 11    2.0432982594529476
+    Node 12    -6.519147171554404
+    Node 13    1.108462867172852
+    Node 14    -4.784977076326355
+    Node 15    -4.251001293408876
+    Node 16    0.22371059086796666
+    Node 17    -0.10054695150223757
+    Node 18    -2.984740384040095
+    Node 19    0.890142537371717
+    Node 20    -0.2734565642240524
+    Node 21    1.5414513164676558
+    Node 22    -1.5250720690659065
+    Node 23    -2.5670748271802735
+    Node 24    3.3927053188903664
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.4076991048741463
+    Node 10    0.34442954933763487
+    Node 11    -6.489737254678549
+    Node 12    -4.194437861116945
+    Node 13    3.849223263278019
+    Node 14    3.3727805200658683
+    Node 15    -0.30981484608758797
+    Node 16    -4.12397083098275
+    Node 17    3.9340897293267822
+    Node 18    -5.402361993765146
+    Node 19    -4.547315443996879
+    Node 20    -4.568134608980454
+    Node 21    6.027113179804044
+    Node 22    -8.473234338763394
+    Node 23    -5.055542845400136
+    Node 24    -2.638056456009254
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.14761543720547
+    Node 10    0.602211202127803
+    Node 11    -4.410466717067777
+    Node 12    1.1042912147184964
+    Node 13    1.997092056743244
+    Node 14    -3.0891705501152966
+    Node 15    3.8503028709903413
+    Node 16    1.5401131525160994
+    Node 17    -8.859814358029332
+    Node 18    2.4142466992510014
+    Node 19    -5.181374799222993
+    Node 20    0.7925816955409142
+    Node 21    5.753329335736592
+    Node 22    -5.849539058912468
+    Node 23    -2.0629768033488958
+    Node 24    1.4740844671364066
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -4.609780149917729
+    Node 10    -8.42668158390869
+    Node 11    -0.38597216191544087
+    Node 12    -1.600510701602533
+    Node 13    -3.9218935169940994
+    Node 14    2.3047755236714917
+    Node 15    0.8745123051939807
+    Node 16    2.7835865558959814
+    Node 17    4.078412642289748
+    Node 18    3.9298480371133646
+    Node 19    0.375916931759466
+    Node 20    -5.981973380847454
+    Node 21    -1.166250775255043
+    Node 22    0.22758221184537553
+    Node 23    -8.857346961358687
+    Node 24    2.5271729991102947
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -2.2148244500577956
+    Node 10    -5.378465410234022
+    Node 11    0.9719639317677566
+    Node 12    7.145135555426303
+    Node 13    -2.37884903198015
+    Node 14    -4.36769351970469
+    Node 15    -4.959247066741241
+    Node 16    3.0295218755702265
+    Node 17    -1.4772015021892295
+    Node 18    -7.532033958199413
+    Node 19    -4.119476928940503
+    Node 20    3.447847534336727
+    Node 21    -7.080305157232683
+    Node 22    -3.9197874808946516
+    Node 23    2.703875038371657
+    Node 24    0.4453852499973088
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -3.298023874598788
+    Node 10    -0.03080889580866401
+    Node 11    -1.7221820030300508
+    Node 12    -4.3510155430755715
+    Node 13    -4.772360081592123
+    Node 14    3.911852922111393
+    Node 15    4.320556402375111
+    Node 16    0.20070521756373966
+    Node 17    -7.2301461235860645
+    Node 18    -2.3967551125525532
+    Node 19    2.4011181167462845
+    Node 20    2.648169387565677
+    Node 21    -4.7263472237735575
+    Node 22    -0.5216497644943954
+    Node 23    -2.8211347550105503
+    Node 24    -3.750373093851954
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -3.291446335501279
+    Node 10    4.941157574046978
+    Node 11    -4.412128872653498
+    Node 12    -0.06123627498576355
+    Node 13    -0.1014960076899357
+    Node 14    -2.6861376328158975
+    Node 15    0.6587630374292518
+    Node 16    2.2673197641649203
+    Node 17    -1.1672467896999097
+    Node 18    -1.5022901005386171
+    Node 19    -4.958054945835663
+    Node 20    -8.271645938430497
+    Node 21    -6.6363144056992445
+    Node 22    4.3777324143957586
+    Node 23    -1.8977610890477268
+    Node 24    -0.43259532638993553
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -6.720665716544106
+    Node 10    1.1492961314434778
+    Node 11    6.5695386440063395
+    Node 12    4.087877380938768
+    Node 13    -2.434489717969903
+    Node 14    -2.374498381215877
+    Node 15    -0.3014139715599025
+    Node 16    -3.1396636336618893
+    Node 17    6.06984127795573
+    Node 18    -5.532563231876002
+    Node 19    -8.089505521031755
+    Node 20    0.4039241893327981
+    Node 21    -5.850972829668284
+    Node 22    0.08542532827555169
+    Node 23    -6.263977662018086
+    Node 24    2.2616422779364145
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -7.190605131029079
+    Node 10    -3.3195971325163525
+    Node 11    -0.034639533083409675
+    Node 12    5.375462655352131
+    Node 13    -5.624777896409963
+    Node 14    -4.593915022175276
+    Node 15    -5.676830865040993
+    Node 16    0.6014285342073307
+    Node 17    -1.914796772949777
+    Node 18    5.7280837005151195
+    Node 19    4.167227184143258
+    Node 20    -7.5821535136080955
+    Node 21    0.2504999214762835
+    Node 22    1.550192300922747
+    Node 23    -3.5441853706497586
+    Node 24    -2.6703547069063744
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -2.960123021206246
+    Attrib pixel1280    10.317055277584673
+    Attrib pixel1410    -8.795052080711246
+    Attrib pixel1168    1.169566776031711
+    Attrib pixel1171    2.0399209228042405
+    Attrib pixel1172    4.71997034689181
+    Attrib pixel1046    2.4673370275104323
+    Attrib pixel1696    3.8039449400802563
+    Attrib pixel1697    -4.118199615433776
+    Attrib pixel1186    -7.223862683850367
+    Attrib pixel1319    -4.632231317343291
+    Attrib pixel1849    -2.4369710825691717
+    Attrib pixel1850    4.013934327167895
+    Attrib pixel1084    -4.288588010732031
+    Attrib pixel1094    -3.507416511949916
+    Attrib pixel1738    -0.39179659083394197
+    Attrib pixel1232    9.78969264041902
+    Attrib pixel1362    -1.8495038136310595
+    Attrib pixel1367    -3.85131924848119
+    Attrib pixel1120    0.8015443454267177
+    Attrib pixel1132    -2.100088491494143
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    3.6005497389230157
+    Attrib pixel1280    4.815603853649561
+    Attrib pixel1410    7.451133172875755
+    Attrib pixel1168    -8.537944620470437
+    Attrib pixel1171    -3.9860195305869066
+    Attrib pixel1172    4.4386388818716
+    Attrib pixel1046    -1.840257213900224
+    Attrib pixel1696    0.715136093220976
+    Attrib pixel1697    -1.988438746590113
+    Attrib pixel1186    -2.755364347355025
+    Attrib pixel1319    11.696143069389214
+    Attrib pixel1849    -3.1486342755543806
+    Attrib pixel1850    -2.296633524675439
+    Attrib pixel1084    0.04171029553258254
+    Attrib pixel1094    -2.1763866463408985
+    Attrib pixel1738    3.725078694036682
+    Attrib pixel1232    1.132769960099045
+    Attrib pixel1362    4.440533247621819
+    Attrib pixel1367    5.975122326079305
+    Attrib pixel1120    -15.03941247912403
+    Attrib pixel1132    0.05824968839457263
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.4475933869608111
+    Attrib pixel1280    -6.236769846639144
+    Attrib pixel1410    2.740686348294412
+    Attrib pixel1168    -1.4183238643040181
+    Attrib pixel1171    4.071908589754474
+    Attrib pixel1172    10.155515416315911
+    Attrib pixel1046    1.6566019156279108
+    Attrib pixel1696    5.2810050647449165
+    Attrib pixel1697    -1.5713912893584367
+    Attrib pixel1186    -13.71912304438543
+    Attrib pixel1319    8.530453122659464
+    Attrib pixel1849    0.7885308094307701
+    Attrib pixel1850    2.119989866784923
+    Attrib pixel1084    1.8492898433542135
+    Attrib pixel1094    1.9025895020092076
+    Attrib pixel1738    -1.4782036356822479
+    Attrib pixel1232    -8.339574122302338
+    Attrib pixel1362    -2.5423525311239876
+    Attrib pixel1367    -0.6609829871418824
+    Attrib pixel1120    0.3231604929282299
+    Attrib pixel1132    -1.8010696406778428
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -3.204910240686899
+    Attrib pixel1280    0.5091042348483287
+    Attrib pixel1410    -3.0044546788288735
+    Attrib pixel1168    3.3265425608079515
+    Attrib pixel1171    7.1284558621460805
+    Attrib pixel1172    -4.282437472687628
+    Attrib pixel1046    -1.6396257364241944
+    Attrib pixel1696    1.7065468916136988
+    Attrib pixel1697    4.950486456237272
+    Attrib pixel1186    0.5535849489572341
+    Attrib pixel1319    -7.666626189834423
+    Attrib pixel1849    1.482405543021715
+    Attrib pixel1850    2.503569914392273
+    Attrib pixel1084    -2.5495744735656993
+    Attrib pixel1094    -3.720548637881844
+    Attrib pixel1738    -3.714219404966377
+    Attrib pixel1232    -0.17123839468720872
+    Attrib pixel1362    3.846365056028532
+    Attrib pixel1367    -3.8423723655674236
+    Attrib pixel1120    0.27373942044184457
+    Attrib pixel1132    3.756907310562
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -1.8639400696672093
+    Attrib pixel1280    1.6938324440552572
+    Attrib pixel1410    -0.9879894197738142
+    Attrib pixel1168    -3.7052985577997912
+    Attrib pixel1171    -2.7320880122409297
+    Attrib pixel1172    1.8496395687404728
+    Attrib pixel1046    1.1467074179019954
+    Attrib pixel1696    -3.025631546737219
+    Attrib pixel1697    -6.181821770054502
+    Attrib pixel1186    12.769712736653048
+    Attrib pixel1319    -1.3735247765620764
+    Attrib pixel1849    7.503888388044115
+    Attrib pixel1850    4.259709685577726
+    Attrib pixel1084    -3.7542258699464797
+    Attrib pixel1094    5.526343016204187
+    Attrib pixel1738    -0.15906932168930016
+    Attrib pixel1232    2.448936827479862
+    Attrib pixel1362    -2.798387926714466
+    Attrib pixel1367    -2.947264109824167
+    Attrib pixel1120    -1.318365386053557
+    Attrib pixel1132    -8.2411999825181
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    0.8124992486705428
+    Attrib pixel1280    4.172315992610154
+    Attrib pixel1410    1.4138891427848346
+    Attrib pixel1168    -4.033164330609702
+    Attrib pixel1171    1.1207294413565885
+    Attrib pixel1172    3.1395642032131583
+    Attrib pixel1046    1.116068572200118
+    Attrib pixel1696    1.745006432779034
+    Attrib pixel1697    -4.306648076937162
+    Attrib pixel1186    9.182100134114814
+    Attrib pixel1319    -3.695004321663645
+    Attrib pixel1849    1.7014318215464628
+    Attrib pixel1850    -0.3385153024251243
+    Attrib pixel1084    -0.582335782040194
+    Attrib pixel1094    3.7939652984810226
+    Attrib pixel1738    -0.45272909313657056
+    Attrib pixel1232    3.997979103556767
+    Attrib pixel1362    -3.178965172675011
+    Attrib pixel1367    -4.623830995784983
+    Attrib pixel1120    -4.175889880851539
+    Attrib pixel1132    -2.1696979386068707
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    5.838675144286111
+    Attrib pixel1280    -5.438216856314106
+    Attrib pixel1410    3.411157142728394
+    Attrib pixel1168    1.7059625658946116
+    Attrib pixel1171    3.8487896827303856
+    Attrib pixel1172    5.152523389419952
+    Attrib pixel1046    1.8202082108212247
+    Attrib pixel1696    2.1821555216805377
+    Attrib pixel1697    1.2890731200652221
+    Attrib pixel1186    1.1505418368950822
+    Attrib pixel1319    2.8325523293021924
+    Attrib pixel1849    0.7576304931370359
+    Attrib pixel1850    -0.07870516953960598
+    Attrib pixel1084    1.8210463353953026
+    Attrib pixel1094    4.902676643429331
+    Attrib pixel1738    0.07226489266544606
+    Attrib pixel1232    -6.313524063232802
+    Attrib pixel1362    -5.688442084983464
+    Attrib pixel1367    -0.8789927076974251
+    Attrib pixel1120    -0.1852044727913504
+    Attrib pixel1132    -2.403410064233007
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    1.4121095515592919
+    Attrib pixel1280    9.742583228137379
+    Attrib pixel1410    -0.2813484428828875
+    Attrib pixel1168    -6.0645190340908774
+    Attrib pixel1171    -1.2368366664542096
+    Attrib pixel1172    -12.229482102470914
+    Attrib pixel1046    1.0885536565067593
+    Attrib pixel1696    -1.708417630317277
+    Attrib pixel1697    2.6878588317188354
+    Attrib pixel1186    -1.0197822086246697
+    Attrib pixel1319    4.461099734741294
+    Attrib pixel1849    3.350721885933583
+    Attrib pixel1850    5.149612648059425
+    Attrib pixel1084    -9.344641623896374
+    Attrib pixel1094    3.15043858146613
+    Attrib pixel1738    -1.0861582776110095
+    Attrib pixel1232    4.021701822657454
+    Attrib pixel1362    -5.0056446873148435
+    Attrib pixel1367    4.1440384821423555
+    Attrib pixel1120    6.041464402114214
+    Attrib pixel1132    -5.39824973727784
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.13124367304673748
+    Attrib pixel1280    -7.43608533244558
+    Attrib pixel1410    13.900318754037801
+    Attrib pixel1168    -8.045834645315018
+    Attrib pixel1171    2.1672744650237705
+    Attrib pixel1172    -1.530362888631054
+    Attrib pixel1046    -3.189522931662979
+    Attrib pixel1696    8.100475286710552
+    Attrib pixel1697    1.2167529504958132
+    Attrib pixel1186    -6.880153121824985
+    Attrib pixel1319    -0.06824308358136937
+    Attrib pixel1849    3.4672627349171
+    Attrib pixel1850    1.4611421258712092
+    Attrib pixel1084    -2.6742845225014533
+    Attrib pixel1094    0.3681646340491
+    Attrib pixel1738    3.2306882713492926
+    Attrib pixel1232    -9.066085026301488
+    Attrib pixel1362    7.210556536920123
+    Attrib pixel1367    3.312267604027694
+    Attrib pixel1120    3.5960802291763843
+    Attrib pixel1132    -6.9452956454101695
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -3.134876408245354
+    Attrib pixel1280    -3.4372843621600877
+    Attrib pixel1410    2.6951209674102428
+    Attrib pixel1168    2.9474179420519184
+    Attrib pixel1171    -2.522710785935104
+    Attrib pixel1172    -7.151446491460574
+    Attrib pixel1046    -2.269362396487034
+    Attrib pixel1696    -7.683304165655199
+    Attrib pixel1697    -8.145604261021889
+    Attrib pixel1186    0.9056488712478613
+    Attrib pixel1319    4.02172251340346
+    Attrib pixel1849    -0.3848763672724467
+    Attrib pixel1850    -4.558384071284304
+    Attrib pixel1084    5.784644385999193
+    Attrib pixel1094    -0.5452860112304897
+    Attrib pixel1738    1.3197445881161713
+    Attrib pixel1232    2.086653209792981
+    Attrib pixel1362    8.538519664737061
+    Attrib pixel1367    7.691184023401174
+    Attrib pixel1120    -0.12379153217451938
+    Attrib pixel1132    -0.26214858735710317
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -1.0154820145057966
+    Attrib pixel1280    -0.22752352379966131
+    Attrib pixel1410    -2.619314486780822
+    Attrib pixel1168    -2.6979891548480475
+    Attrib pixel1171    -4.188574981701579
+    Attrib pixel1172    6.809055668325389
+    Attrib pixel1046    6.438222133049061
+    Attrib pixel1696    2.9153992147284247
+    Attrib pixel1697    -0.25450989127566476
+    Attrib pixel1186    2.597819869437658
+    Attrib pixel1319    1.9229272421894519
+    Attrib pixel1849    -2.1913959085853314
+    Attrib pixel1850    -4.630344230075339
+    Attrib pixel1084    3.4199429900176175
+    Attrib pixel1094    0.2698429562465
+    Attrib pixel1738    2.149624744798672
+    Attrib pixel1232    1.274425637770509
+    Attrib pixel1362    -1.1922154085679368
+    Attrib pixel1367    -8.528870058172402
+    Attrib pixel1120    -4.101972080187539
+    Attrib pixel1132    5.71566690820179
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -8.392269513980795
+    Attrib pixel1280    -1.2916277151549882
+    Attrib pixel1410    4.9537488624768145
+    Attrib pixel1168    -0.5996950158633807
+    Attrib pixel1171    1.9604833845012224
+    Attrib pixel1172    -3.7755710970521807
+    Attrib pixel1046    0.6598389056022999
+    Attrib pixel1696    0.9305708152744441
+    Attrib pixel1697    4.458166483754157
+    Attrib pixel1186    -2.9144870592557823
+    Attrib pixel1319    -11.25002203806175
+    Attrib pixel1849    6.706879623203089
+    Attrib pixel1850    6.092628054773312
+    Attrib pixel1084    -0.3656175548939173
+    Attrib pixel1094    -0.20343969979610643
+    Attrib pixel1738    -6.568705895823132
+    Attrib pixel1232    -0.8162002098858829
+    Attrib pixel1362    5.620069405214518
+    Attrib pixel1367    -8.110190502773314
+    Attrib pixel1120    -4.231309208944735
+    Attrib pixel1132    2.428803400623825
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    13.894069705809276
+    Attrib pixel1280    -1.6117014726286962
+    Attrib pixel1410    1.3966913970468178
+    Attrib pixel1168    -1.5856032764090304
+    Attrib pixel1171    2.824297273009998
+    Attrib pixel1172    -0.8429716338681996
+    Attrib pixel1046    0.3411878458776996
+    Attrib pixel1696    -0.8968224873025153
+    Attrib pixel1697    -2.6451596302601086
+    Attrib pixel1186    7.898770291769347
+    Attrib pixel1319    2.0917222162517666
+    Attrib pixel1849    3.4260864176956467
+    Attrib pixel1850    3.131651704701709
+    Attrib pixel1084    4.286878734044467
+    Attrib pixel1094    2.3234533137359348
+    Attrib pixel1738    0.9590578884596735
+    Attrib pixel1232    -4.155590506089955
+    Attrib pixel1362    -1.9883756318549768
+    Attrib pixel1367    5.170128143641647
+    Attrib pixel1120    5.280793070342431
+    Attrib pixel1132    -1.3568174190645261
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -1.6384822982905973
+    Attrib pixel1280    -6.800125231903597
+    Attrib pixel1410    -0.36768632881796987
+    Attrib pixel1168    0.7657323888972669
+    Attrib pixel1171    -5.356675674915988
+    Attrib pixel1172    -3.289595912568516
+    Attrib pixel1046    0.15383631667601358
+    Attrib pixel1696    1.9004387212279181
+    Attrib pixel1697    1.4204436812421892
+    Attrib pixel1186    -4.412969472773877
+    Attrib pixel1319    7.081852925197276
+    Attrib pixel1849    -3.280708368236749
+    Attrib pixel1850    -1.5361931867880447
+    Attrib pixel1084    7.887636322480311
+    Attrib pixel1094    -3.7988166039836426
+    Attrib pixel1738    0.26448533636852917
+    Attrib pixel1232    -2.844200394930886
+    Attrib pixel1362    1.2713673332952335
+    Attrib pixel1367    4.506713848082294
+    Attrib pixel1120    1.1618522067337387
+    Attrib pixel1132    5.804388791393434
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    1.1800060076386725
+    Attrib pixel1280    3.2181098126102214
+    Attrib pixel1410    1.7607988587947943
+    Attrib pixel1168    6.828553990611238
+    Attrib pixel1171    2.337626918903823
+    Attrib pixel1172    -1.1484691955265085
+    Attrib pixel1046    -2.9939768883398643
+    Attrib pixel1696    1.680224681047426
+    Attrib pixel1697    3.291790532027339
+    Attrib pixel1186    4.868049078925435
+    Attrib pixel1319    2.4999895610658243
+    Attrib pixel1849    -1.1869273780469851
+    Attrib pixel1850    -1.807817733183616
+    Attrib pixel1084    -3.4430309975103777
+    Attrib pixel1094    -4.474627794853047
+    Attrib pixel1738    -2.416332620791311
+    Attrib pixel1232    1.6524428747593594
+    Attrib pixel1362    2.6079201964261
+    Attrib pixel1367    0.213482519358699
+    Attrib pixel1120    -2.2548890396345516
+    Attrib pixel1132    0.888559141524959
+Class label0
+    Input
+    Node 0
+Class label1
+    Input
+    Node 1
+Class label2
+    Input
+    Node 2
+Class label3
+    Input
+    Node 3
+Class label4
+    Input
+    Node 4
+Class label5
+    Input
+    Node 5
+Class label6
+    Input
+    Node 6
+Class label7
+    Input
+    Node 7
+Class label8
+    Input
+    Node 8
+Class label9
+    Input
+    Node 9
+
+
+Time taken to build model: 2.14 seconds
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1   6:label5  10:label9   +   0.997 
+        2   6:label5  10:label9   +   0.525 
+        3   6:label5   6:label5       0.965 
+        4   6:label5   6:label5       0.996 
+        5   6:label5   6:label5       0.605 
+        6   6:label5   6:label5       0.987 
+        7   6:label5   6:label5       0.969 
+        8   6:label5   6:label5       0.988 
+        9   6:label5   6:label5       0.978 
+       10   6:label5   6:label5       0.992 
+       11   6:label5   6:label5       0.996 
+       12   6:label5   6:label5       0.838 
+       13   6:label5   6:label5       0.985 
+       14   6:label5   6:label5       0.93 
+       15   6:label5   6:label5       0.952 
+       16   6:label5   6:label5       0.768 
+       17   6:label5   6:label5       0.458 
+       18   6:label5   2:label1   +   0.467 
+       19   6:label5   6:label5       0.979 
+       20   6:label5   6:label5       0.991 
+       21   6:label5   6:label5       0.978 
+       22   6:label5   6:label5       0.986 
+       23   6:label5   6:label5       0.995 
+       24   6:label5   6:label5       0.995 
+       25  10:label9  10:label9       0.994 
+       26  10:label9  10:label9       0.992 
+       27  10:label9  10:label9       0.991 
+       28  10:label9  10:label9       0.845 
+       29  10:label9  10:label9       0.983 
+       30  10:label9  10:label9       0.888 
+       31  10:label9  10:label9       0.997 
+       32  10:label9  10:label9       0.972 
+       33  10:label9  10:label9       0.975 
+       34  10:label9  10:label9       0.996 
+       35  10:label9   4:label3   +   0.535 
+       36  10:label9  10:label9       0.989 
+       37  10:label9  10:label9       0.923 
+       38  10:label9  10:label9       0.97 
+       39  10:label9  10:label9       0.909 
+       40  10:label9  10:label9       0.891 
+       41  10:label9  10:label9       0.896 
+       42  10:label9  10:label9       0.974 
+       43  10:label9  10:label9       0.956 
+       44  10:label9  10:label9       0.998 
+       45  10:label9  10:label9       0.988 
+       46  10:label9  10:label9       0.997 
+       47  10:label9  10:label9       0.994 
+       48  10:label9  10:label9       0.95 
+       49   3:label2   3:label2       0.952 
+       50   3:label2   3:label2       0.92 
+       51   3:label2   3:label2       0.885 
+       52   3:label2   3:label2       0.94 
+       53   3:label2   3:label2       0.905 
+       54   3:label2   3:label2       0.945 
+       55   3:label2   3:label2       0.909 
+       56   3:label2   3:label2       0.948 
+       57   3:label2   3:label2       0.837 
+       58   3:label2   3:label2       0.931 
+       59   3:label2   3:label2       0.772 
+       60   3:label2   3:label2       0.959 
+       61   3:label2   3:label2       0.923 
+       62   3:label2   3:label2       0.803 
+       63   3:label2   3:label2       0.958 
+       64   3:label2   3:label2       0.931 
+       65   3:label2   3:label2       0.843 
+       66   3:label2   3:label2       0.869 
+       67   3:label2   3:label2       0.912 
+       68   3:label2   3:label2       0.859 
+       69   3:label2   3:label2       0.955 
+       70   3:label2   3:label2       0.633 
+       71   3:label2   3:label2       0.927 
+       72   3:label2   3:label2       0.897 
+       73   4:label3   4:label3       0.999 
+       74   4:label3   4:label3       0.803 
+       75   4:label3  10:label9   +   0.508 
+       76   4:label3   4:label3       0.993 
+       77   4:label3   4:label3       0.993 
+       78   4:label3   5:label4   +   0.974 
+       79   4:label3   4:label3       0.998 
+       80   4:label3   4:label3       0.989 
+       81   4:label3   4:label3       0.528 
+       82   4:label3   4:label3       0.984 
+       83   4:label3   4:label3       0.949 
+       84   4:label3   7:label6   +   0.859 
+       85   4:label3   4:label3       0.983 
+       86   4:label3   4:label3       0.96 
+       87   4:label3   4:label3       0.998 
+       88   4:label3   4:label3       0.955 
+       89   4:label3   4:label3       0.972 
+       90   4:label3   4:label3       0.832 
+       91   4:label3   4:label3       0.994 
+       92   4:label3   4:label3       0.996 
+       93   4:label3   2:label1   +   0.523 
+       94   4:label3   4:label3       0.908 
+       95   4:label3   4:label3       0.985 
+       96   4:label3   4:label3       0.864 
+       97   5:label4   5:label4       0.877 
+       98   5:label4   9:label8   +   0.836 
+       99   5:label4   5:label4       0.74 
+      100   5:label4   5:label4       0.937 
+      101   5:label4   3:label2   +   0.686 
+      102   5:label4   5:label4       0.895 
+      103   5:label4   2:label1   +   0.517 
+      104   5:label4   5:label4       0.921 
+      105   5:label4   5:label4       0.994 
+      106   5:label4   5:label4       0.985 
+      107   5:label4   3:label2   +   0.703 
+      108   5:label4   5:label4       0.902 
+      109   5:label4   5:label4       0.976 
+      110   5:label4   5:label4       0.981 
+      111   5:label4   5:label4       0.69 
+      112   5:label4   5:label4       0.935 
+      113   5:label4   5:label4       0.979 
+      114   5:label4   5:label4       0.918 
+      115   5:label4   5:label4       0.927 
+      116   5:label4   5:label4       0.697 
+      117   5:label4   5:label4       0.752 
+      118   5:label4   5:label4       0.971 
+      119   5:label4   5:label4       0.604 
+      120   5:label4   5:label4       0.965 
+      121   7:label6   7:label6       0.944 
+      122   7:label6   2:label1   +   0.634 
+      123   7:label6   7:label6       0.975 
+      124   7:label6   1:label0   +   0.561 
+      125   7:label6   8:label7   +   0.337 
+      126   7:label6   7:label6       0.992 
+      127   7:label6   7:label6       0.989 
+      128   7:label6   3:label2   +   0.853 
+      129   7:label6   7:label6       0.588 
+      130   7:label6   7:label6       0.933 
+      131   7:label6   2:label1   +   0.811 
+      132   7:label6   2:label1   +   0.733 
+      133   7:label6   7:label6       0.927 
+      134   7:label6   7:label6       0.981 
+      135   7:label6   7:label6       0.998 
+      136   7:label6   5:label4   +   0.667 
+      137   7:label6   7:label6       0.975 
+      138   7:label6   7:label6       0.98 
+      139   7:label6   7:label6       0.956 
+      140   7:label6   7:label6       0.98 
+      141   7:label6   2:label1   +   0.665 
+      142   7:label6   7:label6       0.955 
+      143   7:label6   7:label6       0.937 
+      144   7:label6   7:label6       0.981 
+      145   2:label1   7:label6   +   0.683 
+      146   2:label1   1:label0   +   0.478 
+      147   2:label1   2:label1       0.659 
+      148   2:label1   2:label1       0.593 
+      149   2:label1   2:label1       0.502 
+      150   2:label1   2:label1       0.709 
+      151   2:label1   2:label1       0.57 
+      152   2:label1   2:label1       0.622 
+      153   2:label1   8:label7   +   0.926 
+      154   2:label1   2:label1       0.75 
+      155   2:label1   2:label1       0.567 
+      156   2:label1   2:label1       0.521 
+      157   2:label1   2:label1       0.515 
+      158   2:label1   2:label1       0.516 
+      159   2:label1   2:label1       0.578 
+      160   2:label1   2:label1       0.784 
+      161   2:label1   2:label1       0.506 
+      162   2:label1  10:label9   +   0.472 
+      163   2:label1   2:label1       0.558 
+      164   2:label1   2:label1       0.524 
+      165   2:label1   1:label0   +   0.664 
+      166   2:label1   1:label0   +   0.492 
+      167   2:label1   1:label0   +   0.496 
+      168   2:label1   2:label1       0.524 
+      169   8:label7   4:label3   +   0.583 
+      170   8:label7   5:label4   +   0.422 
+      171   8:label7   8:label7       0.982 
+      172   8:label7   8:label7       0.98 
+      173   8:label7   8:label7       0.71 
+      174   8:label7   8:label7       0.71 
+      175   8:label7   8:label7       0.895 
+      176   8:label7   8:label7       0.91 
+      177   8:label7   8:label7       0.807 
+      178   8:label7   8:label7       0.885 
+      179   8:label7   3:label2   +   0.722 
+      180   8:label7   8:label7       0.869 
+      181   8:label7   8:label7       0.789 
+      182   8:label7   3:label2   +   0.635 
+      183   8:label7   8:label7       0.959 
+      184   8:label7   3:label2   +   0.496 
+      185   8:label7   8:label7       0.945 
+      186   8:label7   8:label7       0.571 
+      187   8:label7   8:label7       0.971 
+      188   8:label7   8:label7       0.928 
+      189   8:label7   8:label7       0.605 
+      190   8:label7   8:label7       0.874 
+      191   8:label7   8:label7       0.959 
+      192   8:label7   8:label7       0.655 
+      193   9:label8   9:label8       0.595 
+      194   9:label8   9:label8       0.976 
+      195   9:label8   9:label8       0.883 
+      196   9:label8   9:label8       0.893 
+      197   9:label8   9:label8       0.903 
+      198   9:label8   9:label8       0.848 
+      199   9:label8   9:label8       0.956 
+      200   9:label8   9:label8       0.734 
+      201   9:label8   7:label6   +   0.658 
+      202   9:label8   9:label8       0.968 
+      203   9:label8   9:label8       0.863 
+      204   9:label8   9:label8       0.988 
+      205   9:label8   9:label8       0.953 
+      206   9:label8   9:label8       0.95 
+      207   9:label8   9:label8       0.888 
+      208   9:label8   9:label8       0.959 
+      209   9:label8   9:label8       0.978 
+      210   9:label8   9:label8       0.862 
+      211   9:label8   9:label8       0.876 
+      212   9:label8   6:label5   +   0.637 
+      213   9:label8   9:label8       0.743 
+      214   9:label8   9:label8       0.872 
+      215   9:label8   9:label8       0.855 
+      216   9:label8   6:label5   +   0.995 
+      217   1:label0  10:label9   +   0.996 
+      218   1:label0   1:label0       0.647 
+      219   1:label0   1:label0       0.571 
+      220   1:label0   2:label1   +   0.576 
+      221   1:label0   2:label1   +   0.492 
+      222   1:label0   1:label0       0.736 
+      223   1:label0   2:label1   +   0.655 
+      224   1:label0   1:label0       0.812 
+      225   1:label0   2:label1   +   0.555 
+      226   1:label0   2:label1   +   0.537 
+      227   1:label0   1:label0       0.596 
+      228   1:label0   2:label1   +   0.534 
+      229   1:label0   1:label0       0.547 
+      230   1:label0   2:label1   +   0.605 
+      231   1:label0   2:label1   +   0.519 
+      232   1:label0   2:label1   +   0.683 
+      233   1:label0   2:label1   +   0.459 
+      234   1:label0   2:label1   +   0.539 
+      235   1:label0   2:label1   +   0.538 
+      236   1:label0   2:label1   +   0.557 
+      237   1:label0   1:label0       0.747 
+      238   1:label0   1:label0       0.563 
+      239   1:label0   2:label1   +   0.678 
+      240   1:label0   1:label0       0.625 
+        1   6:label5   6:label5       0.991 
+        2   6:label5   6:label5       0.994 
+        3   6:label5   6:label5       0.996 
+        4   6:label5   6:label5       0.989 
+        5   6:label5   6:label5       0.993 
+        6   6:label5   6:label5       0.772 
+        7   6:label5   6:label5       0.911 
+        8   6:label5   6:label5       0.994 
+        9   6:label5   6:label5       0.971 
+       10   6:label5   9:label8   +   0.662 
+       11   6:label5  10:label9   +   0.938 
+       12   6:label5   6:label5       0.994 
+       13   6:label5   6:label5       0.982 
+       14   6:label5   6:label5       0.971 
+       15   6:label5   6:label5       0.925 
+       16   6:label5   6:label5       0.996 
+       17   6:label5   6:label5       0.715 
+       18   6:label5   6:label5       0.974 
+       19   6:label5   6:label5       0.946 
+       20   6:label5   6:label5       0.977 
+       21   6:label5   6:label5       0.965 
+       22   6:label5   6:label5       0.997 
+       23   6:label5   6:label5       0.998 
+       24   6:label5   6:label5       0.635 
+       25  10:label9  10:label9       0.973 
+       26  10:label9  10:label9       0.983 
+       27  10:label9  10:label9       0.997 
+       28  10:label9  10:label9       0.98 
+       29  10:label9  10:label9       0.966 
+       30  10:label9  10:label9       0.921 
+       31  10:label9  10:label9       0.984 
+       32  10:label9   6:label5   +   0.777 
+       33  10:label9  10:label9       0.949 
+       34  10:label9  10:label9       0.606 
+       35  10:label9  10:label9       0.923 
+       36  10:label9  10:label9       0.956 
+       37  10:label9  10:label9       0.982 
+       38  10:label9  10:label9       0.971 
+       39  10:label9  10:label9       0.923 
+       40  10:label9  10:label9       0.984 
+       41  10:label9  10:label9       0.967 
+       42  10:label9  10:label9       0.938 
+       43  10:label9   6:label5   +   0.601 
+       44  10:label9  10:label9       0.858 
+       45  10:label9  10:label9       0.972 
+       46  10:label9  10:label9       0.998 
+       47  10:label9  10:label9       0.981 
+       48  10:label9  10:label9       0.933 
+       49   3:label2   3:label2       0.954 
+       50   3:label2   3:label2       0.943 
+       51   3:label2   3:label2       0.866 
+       52   3:label2   3:label2       0.931 
+       53   3:label2   8:label7   +   0.977 
+       54   3:label2   3:label2       0.957 
+       55   3:label2   3:label2       0.962 
+       56   3:label2   3:label2       0.888 
+       57   3:label2   3:label2       0.877 
+       58   3:label2   3:label2       0.932 
+       59   3:label2   3:label2       0.967 
+       60   3:label2   3:label2       0.95 
+       61   3:label2   3:label2       0.927 
+       62   3:label2   3:label2       0.925 
+       63   3:label2   3:label2       0.938 
+       64   3:label2   3:label2       0.763 
+       65   3:label2   3:label2       0.972 
+       66   3:label2   3:label2       0.872 
+       67   3:label2   3:label2       0.964 
+       68   3:label2   3:label2       0.938 
+       69   3:label2   3:label2       0.949 
+       70   3:label2   3:label2       0.937 
+       71   3:label2   3:label2       0.959 
+       72   3:label2   3:label2       0.957 
+       73   4:label3   4:label3       0.992 
+       74   4:label3   4:label3       0.504 
+       75   4:label3   7:label6   +   0.798 
+       76   4:label3   4:label3       0.932 
+       77   4:label3   4:label3       0.928 
+       78   4:label3   4:label3       0.995 
+       79   4:label3   4:label3       0.968 
+       80   4:label3   4:label3       0.972 
+       81   4:label3   4:label3       0.993 
+       82   4:label3   4:label3       0.989 
+       83   4:label3   4:label3       0.915 
+       84   4:label3   4:label3       0.757 
+       85   4:label3   4:label3       0.963 
+       86   4:label3   4:label3       0.924 
+       87   4:label3   4:label3       0.954 
+       88   4:label3   4:label3       0.874 
+       89   4:label3   4:label3       0.996 
+       90   4:label3   4:label3       0.99 
+       91   4:label3   4:label3       0.996 
+       92   4:label3   4:label3       0.985 
+       93   4:label3   4:label3       0.995 
+       94   4:label3   4:label3       0.663 
+       95   4:label3   4:label3       0.837 
+       96   4:label3   4:label3       0.992 
+       97   5:label4   2:label1   +   0.769 
+       98   5:label4   5:label4       0.521 
+       99   5:label4   9:label8   +   0.56 
+      100   5:label4   2:label1   +   0.531 
+      101   5:label4   5:label4       0.815 
+      102   5:label4   5:label4       1 
+      103   5:label4   5:label4       0.97 
+      104   5:label4   5:label4       0.98 
+      105   5:label4   5:label4       0.999 
+      106   5:label4   5:label4       0.955 
+      107   5:label4   9:label8   +   0.576 
+      108   5:label4   5:label4       0.999 
+      109   5:label4   5:label4       0.932 
+      110   5:label4   5:label4       0.902 
+      111   5:label4   5:label4       0.914 
+      112   5:label4   5:label4       0.994 
+      113   5:label4   5:label4       0.764 
+      114   5:label4   5:label4       0.989 
+      115   5:label4   5:label4       0.993 
+      116   5:label4   2:label1   +   0.833 
+      117   5:label4   5:label4       0.989 
+      118   5:label4   5:label4       0.857 
+      119   5:label4   5:label4       0.876 
+      120   5:label4   5:label4       0.723 
+      121   7:label6   7:label6       0.999 
+      122   7:label6   7:label6       0.918 
+      123   7:label6   7:label6       0.973 
+      124   7:label6   7:label6       0.999 
+      125   7:label6   7:label6       0.597 
+      126   7:label6   3:label2   +   0.943 
+      127   7:label6   7:label6       0.989 
+      128   7:label6   7:label6       0.999 
+      129   7:label6   7:label6       0.998 
+      130   7:label6   7:label6       0.998 
+      131   7:label6   7:label6       0.949 
+      132   7:label6   7:label6       0.997 
+      133   7:label6   9:label8   +   0.635 
+      134   7:label6   3:label2   +   0.925 
+      135   7:label6   7:label6       0.994 
+      136   7:label6   7:label6       0.997 
+      137   7:label6   7:label6       0.993 
+      138   7:label6   7:label6       0.84 
+      139   7:label6   7:label6       0.999 
+      140   7:label6   7:label6       0.937 
+      141   7:label6   7:label6       0.993 
+      142   7:label6   7:label6       0.954 
+      143   7:label6   7:label6       0.992 
+      144   7:label6   7:label6       0.975 
+      145   2:label1   2:label1       0.566 
+      146   2:label1   2:label1       0.623 
+      147   2:label1   2:label1       0.511 
+      148   2:label1   2:label1       0.881 
+      149   2:label1   5:label4   +   0.933 
+      150   2:label1   2:label1       0.81 
+      151   2:label1   2:label1       0.598 
+      152   2:label1   1:label0   +   0.555 
+      153   2:label1   9:label8   +   0.905 
+      154   2:label1   1:label0   +   0.58 
+      155   2:label1   2:label1       0.915 
+      156   2:label1   3:label2   +   0.516 
+      157   2:label1   2:label1       0.818 
+      158   2:label1   2:label1       0.844 
+      159   2:label1   1:label0   +   0.416 
+      160   2:label1   1:label0   +   0.57 
+      161   2:label1   2:label1       0.576 
+      162   2:label1   2:label1       0.537 
+      163   2:label1   2:label1       0.539 
+      164   2:label1   2:label1       0.677 
+      165   2:label1   2:label1       0.928 
+      166   2:label1   2:label1       0.911 
+      167   2:label1   2:label1       0.674 
+      168   2:label1   4:label3   +   0.928 
+      169   8:label7   4:label3   +   0.618 
+      170   8:label7   8:label7       0.559 
+      171   8:label7   8:label7       0.98 
+      172   8:label7   8:label7       0.969 
+      173   8:label7   8:label7       0.9 
+      174   8:label7   3:label2   +   0.805 
+      175   8:label7   3:label2   +   0.57 
+      176   8:label7   8:label7       0.989 
+      177   8:label7   8:label7       0.982 
+      178   8:label7   9:label8   +   0.813 
+      179   8:label7   8:label7       0.975 
+      180   8:label7   8:label7       0.971 
+      181   8:label7   8:label7       0.974 
+      182   8:label7   8:label7       0.947 
+      183   8:label7   8:label7       0.968 
+      184   8:label7   8:label7       0.983 
+      185   8:label7   8:label7       0.98 
+      186   8:label7   8:label7       0.977 
+      187   8:label7   8:label7       0.94 
+      188   8:label7   8:label7       0.921 
+      189   8:label7   8:label7       0.987 
+      190   8:label7   8:label7       0.953 
+      191   8:label7   8:label7       0.95 
+      192   8:label7   3:label2   +   0.86 
+      193   9:label8   9:label8       0.906 
+      194   9:label8   3:label2   +   0.691 
+      195   9:label8   9:label8       0.981 
+      196   9:label8   9:label8       0.95 
+      197   9:label8   3:label2   +   0.452 
+      198   9:label8   9:label8       0.988 
+      199   9:label8   9:label8       0.77 
+      200   9:label8   9:label8       0.977 
+      201   9:label8   9:label8       0.981 
+      202   9:label8   9:label8       0.836 
+      203   9:label8   9:label8       0.987 
+      204   9:label8   9:label8       0.972 
+      205   9:label8   9:label8       0.937 
+      206   9:label8   2:label1   +   0.955 
+      207   9:label8   9:label8       0.673 
+      208   9:label8   9:label8       0.759 
+      209   9:label8   9:label8       0.99 
+      210   9:label8   9:label8       0.993 
+      211   9:label8   9:label8       0.828 
+      212   9:label8   9:label8       0.975 
+      213   9:label8   9:label8       0.761 
+      214   9:label8   9:label8       0.958 
+      215   9:label8   9:label8       0.91 
+      216   9:label8   9:label8       0.864 
+      217   1:label0   9:label8   +   0.941 
+      218   1:label0   5:label4   +   0.875 
+      219   1:label0   2:label1   +   0.741 
+      220   1:label0   1:label0       0.366 
+      221   1:label0   1:label0       0.658 
+      222   1:label0   5:label4   +   0.46 
+      223   1:label0   1:label0       0.326 
+      224   1:label0   1:label0       0.659 
+      225   1:label0   1:label0       0.824 
+      226   1:label0   9:label8   +   0.911 
+      227   1:label0   1:label0       0.645 
+      228   1:label0   1:label0       0.702 
+      229   1:label0   3:label2   +   0.686 
+      230   1:label0   2:label1   +   0.762 
+      231   1:label0   2:label1   +   0.553 
+      232   1:label0   1:label0       0.849 
+      233   1:label0   1:label0       0.557 
+      234   1:label0   1:label0       0.742 
+      235   1:label0   7:label6   +   0.831 
+      236   1:label0   2:label1   +   0.441 
+      237   1:label0   1:label0       0.444 
+      238   1:label0   2:label1   +   0.449 
+      239   1:label0   2:label1   +   0.641 
+      240   1:label0   1:label0       0.851 
+        1   6:label5   6:label5       0.483 
+        2   6:label5   6:label5       0.977 
+        3   6:label5   6:label5       0.979 
+        4   6:label5   6:label5       0.954 
+        5   6:label5   6:label5       0.567 
+        6   6:label5   6:label5       0.984 
+        7   6:label5   6:label5       0.908 
+        8   6:label5   6:label5       0.895 
+        9   6:label5   6:label5       0.969 
+       10   6:label5   6:label5       0.971 
+       11   6:label5   6:label5       0.968 
+       12   6:label5   6:label5       0.963 
+       13   6:label5   6:label5       0.948 
+       14   6:label5   6:label5       0.909 
+       15   6:label5   6:label5       0.924 
+       16   6:label5   6:label5       0.843 
+       17   6:label5   6:label5       0.918 
+       18   6:label5   6:label5       0.922 
+       19   6:label5   6:label5       0.96 
+       20   6:label5   6:label5       0.648 
+       21   6:label5   6:label5       0.979 
+       22   6:label5   6:label5       0.608 
+       23   6:label5   6:label5       0.83 
+       24   6:label5   6:label5       0.981 
+       25  10:label9  10:label9       0.956 
+       26  10:label9  10:label9       0.983 
+       27  10:label9  10:label9       0.873 
+       28  10:label9  10:label9       0.958 
+       29  10:label9  10:label9       0.985 
+       30  10:label9  10:label9       0.998 
+       31  10:label9  10:label9       0.996 
+       32  10:label9  10:label9       0.997 
+       33  10:label9  10:label9       0.978 
+       34  10:label9  10:label9       0.996 
+       35  10:label9  10:label9       0.976 
+       36  10:label9  10:label9       0.976 
+       37  10:label9  10:label9       0.968 
+       38  10:label9  10:label9       0.803 
+       39  10:label9  10:label9       0.935 
+       40  10:label9   4:label3   +   0.637 
+       41  10:label9  10:label9       0.977 
+       42  10:label9  10:label9       0.975 
+       43  10:label9  10:label9       0.979 
+       44  10:label9  10:label9       0.986 
+       45  10:label9  10:label9       0.988 
+       46  10:label9  10:label9       0.996 
+       47  10:label9  10:label9       0.991 
+       48  10:label9  10:label9       0.919 
+       49   3:label2   3:label2       0.959 
+       50   3:label2   3:label2       0.949 
+       51   3:label2   3:label2       0.98 
+       52   3:label2   3:label2       0.835 
+       53   3:label2   3:label2       0.971 
+       54   3:label2   3:label2       0.983 
+       55   3:label2   3:label2       0.97 
+       56   3:label2   3:label2       0.97 
+       57   3:label2   3:label2       0.815 
+       58   3:label2   3:label2       0.86 
+       59   3:label2   3:label2       0.971 
+       60   3:label2   3:label2       0.957 
+       61   3:label2   3:label2       0.598 
+       62   3:label2   3:label2       0.971 
+       63   3:label2   3:label2       0.964 
+       64   3:label2   3:label2       0.918 
+       65   3:label2   3:label2       0.961 
+       66   3:label2   3:label2       0.92 
+       67   3:label2   3:label2       0.939 
+       68   3:label2   3:label2       0.627 
+       69   3:label2   3:label2       0.874 
+       70   3:label2   3:label2       0.975 
+       71   3:label2   3:label2       0.957 
+       72   3:label2   3:label2       0.851 
+       73   4:label3   4:label3       0.452 
+       74   4:label3   4:label3       0.891 
+       75   4:label3   4:label3       0.99 
+       76   4:label3   4:label3       0.952 
+       77   4:label3   4:label3       0.923 
+       78   4:label3   4:label3       0.993 
+       79   4:label3   4:label3       0.967 
+       80   4:label3   4:label3       0.832 
+       81   4:label3   4:label3       1 
+       82   4:label3   4:label3       0.879 
+       83   4:label3   4:label3       0.974 
+       84   4:label3   4:label3       0.933 
+       85   4:label3   3:label2   +   0.392 
+       86   4:label3   4:label3       0.995 
+       87   4:label3   4:label3       0.994 
+       88   4:label3   4:label3       0.558 
+       89   4:label3   4:label3       1 
+       90   4:label3   4:label3       0.987 
+       91   4:label3   4:label3       1 
+       92   4:label3   4:label3       0.797 
+       93   4:label3   4:label3       1 
+       94   4:label3   4:label3       0.993 
+       95   4:label3   4:label3       0.901 
+       96   4:label3   3:label2   +   0.88 
+       97   5:label4   5:label4       0.341 
+       98   5:label4   5:label4       0.979 
+       99   5:label4   5:label4       0.53 
+      100   5:label4   5:label4       0.995 
+      101   5:label4   5:label4       0.866 
+      102   5:label4   5:label4       0.923 
+      103   5:label4   5:label4       0.993 
+      104   5:label4   5:label4       0.961 
+      105   5:label4   5:label4       0.998 
+      106   5:label4   5:label4       0.786 
+      107   5:label4   5:label4       0.72 
+      108   5:label4   5:label4       0.742 
+      109   5:label4   5:label4       1 
+      110   5:label4   5:label4       0.669 
+      111   5:label4   5:label4       0.966 
+      112   5:label4   5:label4       0.963 
+      113   5:label4   5:label4       0.992 
+      114   5:label4   5:label4       0.926 
+      115   5:label4   2:label1   +   0.609 
+      116   5:label4   5:label4       0.971 
+      117   5:label4   5:label4       0.986 
+      118   5:label4   9:label8   +   0.776 
+      119   5:label4   5:label4       0.945 
+      120   5:label4   5:label4       0.921 
+      121   7:label6   7:label6       0.999 
+      122   7:label6   7:label6       0.979 
+      123   7:label6   7:label6       0.984 
+      124   7:label6   7:label6       0.969 
+      125   7:label6   7:label6       0.97 
+      126   7:label6   7:label6       0.782 
+      127   7:label6   7:label6       0.996 
+      128   7:label6   7:label6       0.986 
+      129   7:label6   7:label6       0.966 
+      130   7:label6   7:label6       0.994 
+      131   7:label6   7:label6       0.998 
+      132   7:label6   7:label6       0.544 
+      133   7:label6  10:label9   +   0.787 
+      134   7:label6   2:label1   +   0.657 
+      135   7:label6   7:label6       0.997 
+      136   7:label6   7:label6       0.996 
+      137   7:label6   7:label6       0.999 
+      138   7:label6   7:label6       0.999 
+      139   7:label6   7:label6       0.999 
+      140   7:label6   7:label6       0.987 
+      141   7:label6   7:label6       0.982 
+      142   7:label6   4:label3   +   0.685 
+      143   7:label6   7:label6       0.991 
+      144   7:label6   7:label6       0.994 
+      145   2:label1   2:label1       0.62 
+      146   2:label1   2:label1       0.395 
+      147   2:label1   2:label1       0.854 
+      148   2:label1   9:label8   +   0.715 
+      149   2:label1   2:label1       0.84 
+      150   2:label1   2:label1       0.303 
+      151   2:label1   2:label1       0.701 
+      152   2:label1   2:label1       0.833 
+      153   2:label1   2:label1       0.518 
+      154   2:label1   1:label0   +   0.635 
+      155   2:label1  10:label9   +   0.865 
+      156   2:label1   2:label1       0.6 
+      157   2:label1   2:label1       0.615 
+      158   2:label1   1:label0   +   0.461 
+      159   2:label1   1:label0   +   0.494 
+      160   2:label1   2:label1       0.811 
+      161   2:label1   1:label0   +   0.637 
+      162   2:label1   1:label0   +   0.647 
+      163   2:label1   2:label1       0.813 
+      164   2:label1   1:label0   +   0.515 
+      165   2:label1   2:label1       0.683 
+      166   2:label1   2:label1       0.514 
+      167   2:label1   2:label1       0.488 
+      168   2:label1   2:label1       0.674 
+      169   8:label7   8:label7       0.801 
+      170   8:label7   3:label2   +   0.837 
+      171   8:label7   7:label6   +   0.924 
+      172   8:label7   8:label7       0.987 
+      173   8:label7   8:label7       0.83 
+      174   8:label7   8:label7       0.973 
+      175   8:label7   8:label7       0.991 
+      176   8:label7   4:label3   +   0.918 
+      177   8:label7   3:label2   +   0.52 
+      178   8:label7   8:label7       0.832 
+      179   8:label7   8:label7       0.929 
+      180   8:label7   8:label7       0.994 
+      181   8:label7   8:label7       0.928 
+      182   8:label7   8:label7       0.81 
+      183   8:label7   8:label7       0.739 
+      184   8:label7   8:label7       0.597 
+      185   8:label7   8:label7       0.899 
+      186   8:label7   5:label4   +   0.337 
+      187   8:label7   8:label7       0.99 
+      188   8:label7   4:label3   +   0.808 
+      189   8:label7   8:label7       0.981 
+      190   8:label7   8:label7       0.92 
+      191   8:label7   8:label7       0.857 
+      192   8:label7   8:label7       0.993 
+      193   9:label8   9:label8       0.855 
+      194   9:label8   9:label8       0.93 
+      195   9:label8   9:label8       0.928 
+      196   9:label8   9:label8       0.503 
+      197   9:label8   9:label8       0.92 
+      198   9:label8   6:label5   +   0.501 
+      199   9:label8   6:label5   +   0.866 
+      200   9:label8   9:label8       0.942 
+      201   9:label8   9:label8       0.774 
+      202   9:label8   9:label8       0.968 
+      203   9:label8   9:label8       0.944 
+      204   9:label8   9:label8       0.925 
+      205   9:label8   9:label8       0.986 
+      206   9:label8   9:label8       0.873 
+      207   9:label8   9:label8       0.662 
+      208   9:label8   9:label8       0.663 
+      209   9:label8   9:label8       0.99 
+      210   9:label8   9:label8       0.931 
+      211   9:label8   9:label8       0.955 
+      212   9:label8   9:label8       0.866 
+      213   9:label8   9:label8       0.984 
+      214   9:label8   9:label8       0.599 
+      215   9:label8   9:label8       0.946 
+      216   9:label8   9:label8       0.994 
+      217   1:label0   1:label0       0.823 
+      218   1:label0   1:label0       0.621 
+      219   1:label0   2:label1   +   0.608 
+      220   1:label0   1:label0       0.643 
+      221   1:label0   2:label1   +   0.525 
+      222   1:label0   2:label1   +   0.497 
+      223   1:label0   1:label0       0.615 
+      224   1:label0   1:label0       0.565 
+      225   1:label0   2:label1   +   0.529 
+      226   1:label0   2:label1   +   0.608 
+      227   1:label0   9:label8   +   0.723 
+      228   1:label0   2:label1   +   0.642 
+      229   1:label0   1:label0       0.901 
+      230   1:label0   3:label2   +   0.772 
+      231   1:label0   1:label0       0.541 
+      232   1:label0   2:label1   +   0.631 
+      233   1:label0   2:label1   +   0.611 
+      234   1:label0   1:label0       0.47 
+      235   1:label0   1:label0       0.559 
+      236   1:label0   2:label1   +   0.436 
+      237   1:label0   2:label1   +   0.657 
+      238   1:label0   2:label1   +   0.817 
+      239   1:label0   1:label0       0.538 
+      240   1:label0   2:label1   +   0.468 
+        1   6:label5   6:label5       0.985 
+        2   6:label5   6:label5       0.993 
+        3   6:label5   6:label5       0.943 
+        4   6:label5   6:label5       0.99 
+        5   6:label5   6:label5       0.96 
+        6   6:label5   6:label5       0.982 
+        7   6:label5   6:label5       0.995 
+        8   6:label5   6:label5       0.983 
+        9   6:label5   6:label5       0.609 
+       10   6:label5   6:label5       0.936 
+       11   6:label5   6:label5       0.92 
+       12   6:label5   6:label5       0.739 
+       13   6:label5   6:label5       0.995 
+       14   6:label5   6:label5       0.966 
+       15   6:label5   6:label5       0.974 
+       16   6:label5   6:label5       0.882 
+       17   6:label5   6:label5       0.943 
+       18   6:label5   6:label5       0.97 
+       19   6:label5   6:label5       0.928 
+       20   6:label5  10:label9   +   0.639 
+       21   6:label5   6:label5       0.957 
+       22   6:label5   6:label5       0.97 
+       23   6:label5  10:label9   +   0.602 
+       24   6:label5   6:label5       0.967 
+       25  10:label9  10:label9       0.981 
+       26  10:label9  10:label9       0.994 
+       27  10:label9  10:label9       0.967 
+       28  10:label9  10:label9       0.993 
+       29  10:label9  10:label9       0.988 
+       30  10:label9  10:label9       0.979 
+       31  10:label9  10:label9       0.983 
+       32  10:label9  10:label9       0.91 
+       33  10:label9  10:label9       0.509 
+       34  10:label9  10:label9       0.933 
+       35  10:label9  10:label9       0.871 
+       36  10:label9  10:label9       0.918 
+       37  10:label9   6:label5   +   0.693 
+       38  10:label9  10:label9       0.994 
+       39  10:label9  10:label9       0.975 
+       40  10:label9  10:label9       0.982 
+       41  10:label9  10:label9       0.979 
+       42  10:label9  10:label9       0.983 
+       43  10:label9  10:label9       0.992 
+       44  10:label9  10:label9       0.994 
+       45  10:label9  10:label9       0.962 
+       46  10:label9  10:label9       0.99 
+       47  10:label9  10:label9       0.984 
+       48  10:label9  10:label9       0.992 
+       49   3:label2   3:label2       0.884 
+       50   3:label2   8:label7   +   0.966 
+       51   3:label2   3:label2       0.521 
+       52   3:label2   3:label2       0.965 
+       53   3:label2   3:label2       0.836 
+       54   3:label2   3:label2       0.967 
+       55   3:label2   3:label2       0.806 
+       56   3:label2   3:label2       0.917 
+       57   3:label2   3:label2       0.977 
+       58   3:label2   8:label7   +   0.963 
+       59   3:label2   3:label2       0.973 
+       60   3:label2   8:label7   +   0.561 
+       61   3:label2   3:label2       0.956 
+       62   3:label2   3:label2       0.973 
+       63   3:label2   3:label2       0.739 
+       64   3:label2   3:label2       0.985 
+       65   3:label2   3:label2       0.968 
+       66   3:label2   8:label7   +   0.737 
+       67   3:label2   3:label2       0.966 
+       68   3:label2   8:label7   +   0.805 
+       69   3:label2   3:label2       0.62 
+       70   3:label2   3:label2       0.962 
+       71   3:label2   8:label7   +   0.819 
+       72   3:label2   3:label2       0.573 
+       73   4:label3   4:label3       0.846 
+       74   4:label3   4:label3       0.974 
+       75   4:label3   4:label3       0.962 
+       76   4:label3   4:label3       0.986 
+       77   4:label3  10:label9   +   0.96 
+       78   4:label3   4:label3       0.992 
+       79   4:label3   4:label3       0.988 
+       80   4:label3   4:label3       0.989 
+       81   4:label3   7:label6   +   0.542 
+       82   4:label3   4:label3       0.73 
+       83   4:label3   4:label3       0.913 
+       84   4:label3   4:label3       0.994 
+       85   4:label3   4:label3       0.961 
+       86   4:label3   4:label3       0.969 
+       87   4:label3   5:label4   +   0.733 
+       88   4:label3   4:label3       0.954 
+       89   4:label3  10:label9   +   0.552 
+       90   4:label3   4:label3       0.534 
+       91   4:label3   4:label3       0.981 
+       92   4:label3   4:label3       0.928 
+       93   4:label3   4:label3       0.996 
+       94   4:label3   4:label3       0.958 
+       95   4:label3   4:label3       0.984 
+       96   4:label3   4:label3       0.978 
+       97   5:label4   1:label0   +   0.609 
+       98   5:label4   5:label4       0.991 
+       99   5:label4   5:label4       0.922 
+      100   5:label4   5:label4       0.998 
+      101   5:label4   2:label1   +   0.445 
+      102   5:label4   5:label4       0.987 
+      103   5:label4   5:label4       0.929 
+      104   5:label4   5:label4       0.957 
+      105   5:label4   1:label0   +   0.329 
+      106   5:label4   5:label4       0.994 
+      107   5:label4   2:label1   +   0.33 
+      108   5:label4   5:label4       0.964 
+      109   5:label4   5:label4       0.934 
+      110   5:label4   3:label2   +   0.405 
+      111   5:label4   5:label4       0.998 
+      112   5:label4   5:label4       0.922 
+      113   5:label4   1:label0   +   0.514 
+      114   5:label4   5:label4       0.931 
+      115   5:label4   5:label4       0.887 
+      116   5:label4   5:label4       0.998 
+      117   5:label4   1:label0   +   0.6 
+      118   5:label4   5:label4       0.976 
+      119   5:label4   5:label4       0.924 
+      120   5:label4   5:label4       0.998 
+      121   7:label6   7:label6       0.997 
+      122   7:label6   7:label6       0.497 
+      123   7:label6   7:label6       0.994 
+      124   7:label6   2:label1   +   0.529 
+      125   7:label6   7:label6       0.886 
+      126   7:label6   7:label6       0.984 
+      127   7:label6   9:label8   +   0.604 
+      128   7:label6   7:label6       0.987 
+      129   7:label6   7:label6       0.986 
+      130   7:label6   7:label6       0.995 
+      131   7:label6   2:label1   +   0.613 
+      132   7:label6   7:label6       0.993 
+      133   7:label6   7:label6       0.96 
+      134   7:label6   7:label6       0.993 
+      135   7:label6   7:label6       0.978 
+      136   7:label6   7:label6       0.834 
+      137   7:label6   7:label6       0.981 
+      138   7:label6   7:label6       0.994 
+      139   7:label6   7:label6       0.948 
+      140   7:label6   7:label6       0.941 
+      141   7:label6   7:label6       0.975 
+      142   7:label6   7:label6       0.988 
+      143   7:label6   7:label6       0.997 
+      144   7:label6   8:label7   +   0.92 
+      145   2:label1   2:label1       0.75 
+      146   2:label1   1:label0   +   0.686 
+      147   2:label1   2:label1       0.706 
+      148   2:label1   2:label1       0.672 
+      149   2:label1   2:label1       0.664 
+      150   2:label1   2:label1       0.933 
+      151   2:label1   1:label0   +   0.5 
+      152   2:label1   8:label7   +   0.85 
+      153   2:label1  10:label9   +   0.718 
+      154   2:label1   1:label0   +   0.845 
+      155   2:label1   2:label1       0.721 
+      156   2:label1   2:label1       0.538 
+      157   2:label1   1:label0   +   0.678 
+      158   2:label1   8:label7   +   0.885 
+      159   2:label1   1:label0   +   0.461 
+      160   2:label1   2:label1       0.847 
+      161   2:label1   2:label1       0.794 
+      162   2:label1   2:label1       0.61 
+      163   2:label1   2:label1       0.507 
+      164   2:label1   8:label7   +   0.824 
+      165   2:label1   2:label1       0.803 
+      166   2:label1   1:label0   +   0.505 
+      167   2:label1   2:label1       0.902 
+      168   2:label1   1:label0   +   0.812 
+      169   8:label7   8:label7       0.985 
+      170   8:label7   8:label7       0.987 
+      171   8:label7   8:label7       0.812 
+      172   8:label7   8:label7       0.988 
+      173   8:label7   8:label7       0.827 
+      174   8:label7   8:label7       0.985 
+      175   8:label7   8:label7       0.98 
+      176   8:label7   8:label7       0.966 
+      177   8:label7   8:label7       0.948 
+      178   8:label7   8:label7       0.425 
+      179   8:label7   8:label7       0.987 
+      180   8:label7   8:label7       0.989 
+      181   8:label7   8:label7       0.989 
+      182   8:label7   8:label7       0.986 
+      183   8:label7   8:label7       0.985 
+      184   8:label7   2:label1   +   0.88 
+      185   8:label7   8:label7       0.984 
+      186   8:label7   8:label7       0.987 
+      187   8:label7   8:label7       0.989 
+      188   8:label7   8:label7       0.946 
+      189   8:label7   8:label7       0.566 
+      190   8:label7   8:label7       0.975 
+      191   8:label7   8:label7       0.98 
+      192   8:label7   8:label7       0.985 
+      193   9:label8   6:label5   +   0.529 
+      194   9:label8   9:label8       0.93 
+      195   9:label8   9:label8       0.94 
+      196   9:label8   9:label8       0.975 
+      197   9:label8   9:label8       0.905 
+      198   9:label8   9:label8       0.977 
+      199   9:label8   9:label8       0.977 
+      200   9:label8   6:label5   +   0.6 
+      201   9:label8   9:label8       0.959 
+      202   9:label8   2:label1   +   0.518 
+      203   9:label8   9:label8       0.978 
+      204   9:label8   9:label8       0.932 
+      205   9:label8   9:label8       0.865 
+      206   9:label8   9:label8       0.969 
+      207   9:label8   9:label8       0.985 
+      208   9:label8   9:label8       0.974 
+      209   9:label8   9:label8       0.943 
+      210   9:label8   9:label8       0.867 
+      211   9:label8   9:label8       0.872 
+      212   9:label8   9:label8       0.949 
+      213   9:label8   9:label8       0.893 
+      214   9:label8   9:label8       0.892 
+      215   9:label8   4:label3   +   0.578 
+      216   9:label8   9:label8       0.984 
+      217   1:label0   2:label1   +   0.49 
+      218   1:label0   2:label1   +   0.621 
+      219   1:label0   1:label0       0.525 
+      220   1:label0   1:label0       0.547 
+      221   1:label0   1:label0       0.881 
+      222   1:label0   3:label2   +   0.88 
+      223   1:label0   1:label0       0.758 
+      224   1:label0   1:label0       0.94 
+      225   1:label0   2:label1   +   0.612 
+      226   1:label0   1:label0       0.804 
+      227   1:label0   4:label3   +   0.381 
+      228   1:label0   2:label1   +   0.471 
+      229   1:label0   2:label1   +   0.517 
+      230   1:label0   1:label0       0.601 
+      231   1:label0   2:label1   +   0.677 
+      232   1:label0   1:label0       0.9 
+      233   1:label0   1:label0       0.782 
+      234   1:label0   1:label0       0.845 
+      235   1:label0   6:label5   +   0.516 
+      236   1:label0   2:label1   +   0.646 
+      237   1:label0   1:label0       0.925 
+      238   1:label0   1:label0       0.584 
+      239   1:label0   1:label0       0.561 
+      240   1:label0   2:label1   +   0.568 
+        1   6:label5   6:label5       0.997 
+        2   6:label5   6:label5       0.722 
+        3   6:label5   6:label5       0.745 
+        4   6:label5   6:label5       0.931 
+        5   6:label5   6:label5       0.998 
+        6   6:label5   6:label5       0.973 
+        7   6:label5   6:label5       0.804 
+        8   6:label5   6:label5       0.941 
+        9   6:label5   6:label5       0.998 
+       10   6:label5   6:label5       0.983 
+       11   6:label5   6:label5       0.996 
+       12   6:label5   6:label5       0.817 
+       13   6:label5   6:label5       0.99 
+       14   6:label5   6:label5       0.996 
+       15   6:label5   6:label5       0.998 
+       16   6:label5   6:label5       0.845 
+       17   6:label5   6:label5       0.88 
+       18   6:label5   6:label5       0.999 
+       19   6:label5   6:label5       0.859 
+       20   6:label5   6:label5       0.998 
+       21   6:label5   6:label5       0.99 
+       22   6:label5   6:label5       0.856 
+       23   6:label5   6:label5       0.996 
+       24   6:label5   6:label5       0.998 
+       25  10:label9  10:label9       0.955 
+       26  10:label9  10:label9       0.79 
+       27  10:label9  10:label9       0.642 
+       28  10:label9   6:label5   +   0.841 
+       29  10:label9  10:label9       0.96 
+       30  10:label9  10:label9       0.881 
+       31  10:label9  10:label9       0.677 
+       32  10:label9  10:label9       0.936 
+       33  10:label9  10:label9       0.886 
+       34  10:label9  10:label9       0.83 
+       35  10:label9  10:label9       0.942 
+       36  10:label9  10:label9       0.656 
+       37  10:label9  10:label9       0.995 
+       38  10:label9   6:label5   +   0.576 
+       39  10:label9  10:label9       0.928 
+       40  10:label9  10:label9       0.993 
+       41  10:label9  10:label9       0.966 
+       42  10:label9  10:label9       0.996 
+       43  10:label9  10:label9       0.815 
+       44  10:label9  10:label9       0.996 
+       45  10:label9  10:label9       0.975 
+       46  10:label9  10:label9       0.916 
+       47  10:label9  10:label9       0.993 
+       48  10:label9  10:label9       0.94 
+       49   3:label2   3:label2       0.906 
+       50   3:label2   8:label7   +   0.831 
+       51   3:label2   3:label2       0.971 
+       52   3:label2   3:label2       0.813 
+       53   3:label2   3:label2       0.913 
+       54   3:label2   3:label2       0.758 
+       55   3:label2   3:label2       0.907 
+       56   3:label2   3:label2       0.882 
+       57   3:label2   3:label2       0.796 
+       58   3:label2   3:label2       0.97 
+       59   3:label2   3:label2       0.941 
+       60   3:label2   3:label2       0.874 
+       61   3:label2   8:label7   +   0.844 
+       62   3:label2   3:label2       0.57 
+       63   3:label2   3:label2       0.875 
+       64   3:label2   3:label2       0.957 
+       65   3:label2   3:label2       0.888 
+       66   3:label2   3:label2       0.864 
+       67   3:label2   3:label2       0.87 
+       68   3:label2   3:label2       0.958 
+       69   3:label2   3:label2       0.778 
+       70   3:label2   3:label2       0.959 
+       71   3:label2   3:label2       0.961 
+       72   3:label2   3:label2       0.819 
+       73   4:label3   4:label3       0.981 
+       74   4:label3   4:label3       0.961 
+       75   4:label3   4:label3       0.936 
+       76   4:label3   4:label3       0.992 
+       77   4:label3   4:label3       0.995 
+       78   4:label3   4:label3       0.988 
+       79   4:label3   4:label3       0.984 
+       80   4:label3   6:label5   +   0.689 
+       81   4:label3   4:label3       0.997 
+       82   4:label3   5:label4   +   0.651 
+       83   4:label3   4:label3       0.95 
+       84   4:label3   4:label3       0.994 
+       85   4:label3   4:label3       0.988 
+       86   4:label3   4:label3       0.997 
+       87   4:label3   4:label3       0.987 
+       88   4:label3   4:label3       0.997 
+       89   4:label3   4:label3       0.962 
+       90   4:label3   1:label0   +   0.805 
+       91   4:label3   4:label3       0.802 
+       92   4:label3   4:label3       0.913 
+       93   4:label3   4:label3       0.953 
+       94   4:label3   4:label3       0.983 
+       95   4:label3   4:label3       0.71 
+       96   4:label3   4:label3       0.986 
+       97   5:label4   3:label2   +   0.385 
+       98   5:label4   5:label4       0.969 
+       99   5:label4   5:label4       0.936 
+      100   5:label4   5:label4       0.925 
+      101   5:label4   5:label4       0.973 
+      102   5:label4   5:label4       0.981 
+      103   5:label4   5:label4       0.983 
+      104   5:label4   5:label4       0.802 
+      105   5:label4   5:label4       0.94 
+      106   5:label4   5:label4       0.675 
+      107   5:label4   5:label4       0.923 
+      108   5:label4   5:label4       0.968 
+      109   5:label4   5:label4       0.574 
+      110   5:label4   5:label4       0.99 
+      111   5:label4   5:label4       0.839 
+      112   5:label4   5:label4       0.946 
+      113   5:label4   5:label4       0.52 
+      114   5:label4   5:label4       0.952 
+      115   5:label4   5:label4       0.959 
+      116   5:label4   5:label4       0.947 
+      117   5:label4   5:label4       0.993 
+      118   5:label4   5:label4       0.948 
+      119   5:label4   5:label4       0.888 
+      120   5:label4   5:label4       0.907 
+      121   7:label6   7:label6       0.511 
+      122   7:label6   7:label6       0.979 
+      123   7:label6   7:label6       0.69 
+      124   7:label6   7:label6       0.521 
+      125   7:label6   7:label6       0.777 
+      126   7:label6   7:label6       0.99 
+      127   7:label6   7:label6       0.995 
+      128   7:label6   7:label6       0.992 
+      129   7:label6   7:label6       0.986 
+      130   7:label6   7:label6       0.974 
+      131   7:label6   5:label4   +   0.543 
+      132   7:label6   7:label6       0.987 
+      133   7:label6   7:label6       0.981 
+      134   7:label6   7:label6       0.995 
+      135   7:label6   7:label6       0.96 
+      136   7:label6   7:label6       0.995 
+      137   7:label6   7:label6       0.968 
+      138   7:label6   7:label6       0.988 
+      139   7:label6   7:label6       0.975 
+      140   7:label6   7:label6       0.987 
+      141   7:label6   7:label6       0.987 
+      142   7:label6   9:label8   +   0.518 
+      143   7:label6   7:label6       0.996 
+      144   7:label6   7:label6       0.978 
+      145   2:label1   2:label1       0.531 
+      146   2:label1   9:label8   +   0.639 
+      147   2:label1   9:label8   +   0.909 
+      148   2:label1   1:label0   +   0.602 
+      149   2:label1   9:label8   +   0.776 
+      150   2:label1   2:label1       0.527 
+      151   2:label1   1:label0   +   0.652 
+      152   2:label1   2:label1       0.942 
+      153   2:label1   2:label1       0.714 
+      154   2:label1   2:label1       0.78 
+      155   2:label1   2:label1       0.677 
+      156   2:label1   1:label0   +   0.681 
+      157   2:label1   2:label1       0.96 
+      158   2:label1   1:label0   +   0.589 
+      159   2:label1   1:label0   +   0.681 
+      160   2:label1   1:label0   +   0.552 
+      161   2:label1   1:label0   +   0.476 
+      162   2:label1   2:label1       0.594 
+      163   2:label1   2:label1       0.813 
+      164   2:label1   1:label0   +   0.77 
+      165   2:label1   2:label1       0.69 
+      166   2:label1   1:label0   +   0.667 
+      167   2:label1   1:label0   +   0.582 
+      168   2:label1   4:label3   +   0.728 
+      169   8:label7   8:label7       0.961 
+      170   8:label7   8:label7       0.907 
+      171   8:label7   8:label7       0.981 
+      172   8:label7   8:label7       0.876 
+      173   8:label7   8:label7       0.919 
+      174   8:label7   8:label7       0.856 
+      175   8:label7   8:label7       0.632 
+      176   8:label7   9:label8   +   0.481 
+      177   8:label7   8:label7       0.949 
+      178   8:label7   8:label7       0.843 
+      179   8:label7   2:label1   +   0.814 
+      180   8:label7   1:label0   +   0.833 
+      181   8:label7   8:label7       0.623 
+      182   8:label7   8:label7       0.978 
+      183   8:label7   8:label7       0.955 
+      184   8:label7   1:label0   +   0.887 
+      185   8:label7   8:label7       0.908 
+      186   8:label7   8:label7       0.821 
+      187   8:label7   8:label7       0.698 
+      188   8:label7   1:label0   +   0.591 
+      189   8:label7   8:label7       0.871 
+      190   8:label7   5:label4   +   0.83 
+      191   8:label7   9:label8   +   0.661 
+      192   8:label7   8:label7       0.933 
+      193   9:label8   9:label8       0.933 
+      194   9:label8   9:label8       0.993 
+      195   9:label8   9:label8       0.587 
+      196   9:label8   9:label8       0.931 
+      197   9:label8   9:label8       0.995 
+      198   9:label8   9:label8       0.932 
+      199   9:label8   9:label8       0.988 
+      200   9:label8   9:label8       0.941 
+      201   9:label8   9:label8       0.595 
+      202   9:label8   9:label8       0.962 
+      203   9:label8   9:label8       0.954 
+      204   9:label8   9:label8       0.971 
+      205   9:label8   9:label8       0.939 
+      206   9:label8   9:label8       0.978 
+      207   9:label8   9:label8       0.992 
+      208   9:label8   9:label8       0.975 
+      209   9:label8   6:label5   +   0.528 
+      210   9:label8   9:label8       0.986 
+      211   9:label8   9:label8       0.978 
+      212   9:label8   9:label8       0.931 
+      213   9:label8   9:label8       0.971 
+      214   9:label8   9:label8       0.737 
+      215   9:label8   9:label8       0.978 
+      216   9:label8   9:label8       0.713 
+      217   1:label0   1:label0       0.568 
+      218   1:label0   1:label0       0.641 
+      219   1:label0   2:label1   +   0.489 
+      220   1:label0   1:label0       0.566 
+      221   1:label0   1:label0       0.632 
+      222   1:label0   9:label8   +   0.512 
+      223   1:label0   2:label1   +   0.865 
+      224   1:label0   1:label0       0.694 
+      225   1:label0   9:label8   +   0.663 
+      226   1:label0   1:label0       0.752 
+      227   1:label0   2:label1   +   0.654 
+      228   1:label0   1:label0       0.575 
+      229   1:label0   1:label0       0.798 
+      230   1:label0   1:label0       0.786 
+      231   1:label0   1:label0       0.637 
+      232   1:label0   2:label1   +   0.507 
+      233   1:label0   1:label0       0.425 
+      234   1:label0  10:label9   +   0.869 
+      235   1:label0   9:label8   +   0.439 
+      236   1:label0   2:label1   +   0.698 
+      237   1:label0   2:label1   +   0.479 
+      238   1:label0   1:label0       0.97 
+      239   1:label0   1:label0       0.682 
+      240   1:label0   1:label0       0.552 
+        1   6:label5   6:label5       0.862 
+        2   6:label5   6:label5       0.995 
+        3   6:label5   6:label5       0.953 
+        4   6:label5   6:label5       0.837 
+        5   6:label5   6:label5       0.995 
+        6   6:label5   2:label1   +   0.854 
+        7   6:label5   5:label4   +   0.716 
+        8   6:label5   6:label5       0.997 
+        9   6:label5   6:label5       0.857 
+       10   6:label5   6:label5       0.879 
+       11   6:label5   6:label5       0.997 
+       12   6:label5   6:label5       0.983 
+       13   6:label5   6:label5       0.997 
+       14   6:label5   6:label5       0.997 
+       15   6:label5   6:label5       0.997 
+       16   6:label5   6:label5       0.995 
+       17   6:label5   6:label5       0.909 
+       18   6:label5   6:label5       0.96 
+       19   6:label5   6:label5       0.927 
+       20   6:label5   6:label5       0.984 
+       21   6:label5   2:label1   +   0.483 
+       22   6:label5   6:label5       0.992 
+       23   6:label5   6:label5       0.989 
+       24   6:label5   6:label5       0.997 
+       25  10:label9  10:label9       0.936 
+       26  10:label9  10:label9       0.989 
+       27  10:label9  10:label9       0.931 
+       28  10:label9  10:label9       0.956 
+       29  10:label9  10:label9       0.924 
+       30  10:label9  10:label9       0.983 
+       31  10:label9  10:label9       0.828 
+       32  10:label9  10:label9       0.989 
+       33  10:label9  10:label9       0.96 
+       34  10:label9  10:label9       0.996 
+       35  10:label9  10:label9       0.98 
+       36  10:label9  10:label9       0.969 
+       37  10:label9  10:label9       0.991 
+       38  10:label9  10:label9       0.764 
+       39  10:label9  10:label9       0.939 
+       40  10:label9  10:label9       0.904 
+       41  10:label9  10:label9       0.967 
+       42  10:label9  10:label9       0.951 
+       43  10:label9  10:label9       0.952 
+       44  10:label9   6:label5   +   0.532 
+       45  10:label9  10:label9       0.989 
+       46  10:label9  10:label9       0.841 
+       47  10:label9  10:label9       0.959 
+       48  10:label9  10:label9       0.938 
+       49   3:label2   3:label2       0.724 
+       50   3:label2   3:label2       0.734 
+       51   3:label2   3:label2       0.928 
+       52   3:label2   3:label2       0.954 
+       53   3:label2   3:label2       0.613 
+       54   3:label2   3:label2       0.961 
+       55   3:label2   3:label2       0.963 
+       56   3:label2   3:label2       0.716 
+       57   3:label2   3:label2       0.693 
+       58   3:label2   3:label2       0.955 
+       59   3:label2   3:label2       0.925 
+       60   3:label2   3:label2       0.845 
+       61   3:label2   3:label2       0.901 
+       62   3:label2   3:label2       0.805 
+       63   3:label2   3:label2       0.888 
+       64   3:label2   3:label2       0.962 
+       65   3:label2   3:label2       0.966 
+       66   3:label2   3:label2       0.912 
+       67   3:label2   3:label2       0.945 
+       68   3:label2   3:label2       0.941 
+       69   3:label2   3:label2       0.85 
+       70   3:label2   3:label2       0.936 
+       71   3:label2   3:label2       0.909 
+       72   3:label2   3:label2       0.871 
+       73   4:label3   4:label3       0.98 
+       74   4:label3   4:label3       0.983 
+       75   4:label3   4:label3       0.907 
+       76   4:label3   4:label3       0.988 
+       77   4:label3   4:label3       0.987 
+       78   4:label3   4:label3       0.982 
+       79   4:label3   4:label3       0.989 
+       80   4:label3   4:label3       0.466 
+       81   4:label3   4:label3       0.986 
+       82   4:label3   4:label3       0.969 
+       83   4:label3   4:label3       0.964 
+       84   4:label3   4:label3       0.963 
+       85   4:label3   4:label3       0.966 
+       86   4:label3   4:label3       0.984 
+       87   4:label3   4:label3       0.954 
+       88   4:label3   4:label3       0.831 
+       89   4:label3   4:label3       0.989 
+       90   4:label3   4:label3       0.983 
+       91   4:label3   4:label3       0.889 
+       92   4:label3   4:label3       0.953 
+       93   4:label3   4:label3       0.956 
+       94   4:label3   4:label3       0.982 
+       95   4:label3   4:label3       0.968 
+       96   4:label3   4:label3       0.987 
+       97   5:label4   5:label4       0.839 
+       98   5:label4   2:label1   +   0.638 
+       99   5:label4   1:label0   +   0.472 
+      100   5:label4   3:label2   +   0.868 
+      101   5:label4   5:label4       0.986 
+      102   5:label4   5:label4       0.861 
+      103   5:label4   5:label4       0.99 
+      104   5:label4   5:label4       0.993 
+      105   5:label4   5:label4       0.938 
+      106   5:label4   5:label4       0.942 
+      107   5:label4   2:label1   +   0.594 
+      108   5:label4   5:label4       0.976 
+      109   5:label4   5:label4       0.927 
+      110   5:label4   5:label4       0.978 
+      111   5:label4   3:label2   +   0.504 
+      112   5:label4   5:label4       0.884 
+      113   5:label4   5:label4       0.995 
+      114   5:label4   5:label4       0.938 
+      115   5:label4   5:label4       0.993 
+      116   5:label4   2:label1   +   0.524 
+      117   5:label4   5:label4       0.996 
+      118   5:label4   2:label1   +   0.406 
+      119   5:label4   5:label4       0.994 
+      120   5:label4   5:label4       0.945 
+      121   7:label6   7:label6       0.992 
+      122   7:label6   7:label6       0.949 
+      123   7:label6   7:label6       0.992 
+      124   7:label6   7:label6       0.995 
+      125   7:label6   7:label6       0.971 
+      126   7:label6   7:label6       0.973 
+      127   7:label6   7:label6       0.926 
+      128   7:label6   7:label6       0.955 
+      129   7:label6   7:label6       0.686 
+      130   7:label6   7:label6       0.992 
+      131   7:label6   7:label6       0.988 
+      132   7:label6   7:label6       0.627 
+      133   7:label6   7:label6       0.997 
+      134   7:label6   7:label6       0.993 
+      135   7:label6   7:label6       0.858 
+      136   7:label6   5:label4   +   0.522 
+      137   7:label6   7:label6       0.996 
+      138   7:label6   7:label6       0.972 
+      139   7:label6   8:label7   +   0.851 
+      140   7:label6   7:label6       0.996 
+      141   7:label6   2:label1   +   0.915 
+      142   7:label6   2:label1   +   0.883 
+      143   7:label6   7:label6       0.969 
+      144   7:label6   7:label6       0.951 
+      145   2:label1   2:label1       0.494 
+      146   2:label1   2:label1       0.522 
+      147   2:label1   2:label1       0.585 
+      148   2:label1   2:label1       0.974 
+      149   2:label1   2:label1       0.498 
+      150   2:label1   1:label0   +   0.51 
+      151   2:label1   2:label1       0.956 
+      152   2:label1   2:label1       0.554 
+      153   2:label1   2:label1       0.511 
+      154   2:label1   2:label1       0.836 
+      155   2:label1   1:label0   +   0.489 
+      156   2:label1   2:label1       0.678 
+      157   2:label1   2:label1       0.68 
+      158   2:label1   1:label0   +   0.503 
+      159   2:label1   2:label1       0.957 
+      160   2:label1   2:label1       0.787 
+      161   2:label1   2:label1       0.622 
+      162   2:label1   1:label0   +   0.818 
+      163   2:label1   2:label1       0.616 
+      164   2:label1   2:label1       0.822 
+      165   2:label1   2:label1       0.558 
+      166   2:label1   2:label1       0.586 
+      167   2:label1   3:label2   +   0.749 
+      168   2:label1   2:label1       0.622 
+      169   8:label7   8:label7       0.916 
+      170   8:label7   8:label7       0.95 
+      171   8:label7   8:label7       0.948 
+      172   8:label7   8:label7       0.976 
+      173   8:label7   8:label7       0.926 
+      174   8:label7   8:label7       0.967 
+      175   8:label7   8:label7       0.898 
+      176   8:label7   8:label7       0.971 
+      177   8:label7   8:label7       0.902 
+      178   8:label7   3:label2   +   0.83 
+      179   8:label7   3:label2   +   0.723 
+      180   8:label7   8:label7       0.915 
+      181   8:label7   8:label7       0.909 
+      182   8:label7   8:label7       0.966 
+      183   8:label7   8:label7       0.856 
+      184   8:label7   8:label7       0.945 
+      185   8:label7   8:label7       0.876 
+      186   8:label7   8:label7       0.956 
+      187   8:label7   8:label7       0.947 
+      188   8:label7   2:label1   +   0.963 
+      189   8:label7   8:label7       0.961 
+      190   8:label7   8:label7       0.964 
+      191   8:label7   7:label6   +   0.522 
+      192   8:label7   8:label7       0.915 
+      193   9:label8   9:label8       0.95 
+      194   9:label8   9:label8       0.997 
+      195   9:label8   9:label8       0.89 
+      196   9:label8   9:label8       0.917 
+      197   9:label8   9:label8       0.543 
+      198   9:label8   7:label6   +   0.984 
+      199   9:label8   9:label8       0.923 
+      200   9:label8   9:label8       0.952 
+      201   9:label8   9:label8       0.985 
+      202   9:label8   9:label8       0.808 
+      203   9:label8   6:label5   +   0.507 
+      204   9:label8   9:label8       0.984 
+      205   9:label8   9:label8       0.945 
+      206   9:label8   9:label8       0.961 
+      207   9:label8   9:label8       0.92 
+      208   9:label8   9:label8       0.983 
+      209   9:label8   9:label8       0.964 
+      210   9:label8   9:label8       0.965 
+      211   9:label8   6:label5   +   0.632 
+      212   9:label8   9:label8       0.943 
+      213   9:label8   9:label8       0.772 
+      214   9:label8   9:label8       0.975 
+      215   9:label8   7:label6   +   0.617 
+      216   9:label8   9:label8       0.931 
+      217   1:label0   1:label0       0.483 
+      218   1:label0   2:label1   +   0.648 
+      219   1:label0   2:label1   +   0.655 
+      220   1:label0   2:label1   +   0.593 
+      221   1:label0   1:label0       0.476 
+      222   1:label0   1:label0       0.569 
+      223   1:label0   1:label0       0.538 
+      224   1:label0   2:label1   +   0.598 
+      225   1:label0   2:label1   +   0.874 
+      226   1:label0   1:label0       0.727 
+      227   1:label0   9:label8   +   0.47 
+      228   1:label0   1:label0       0.506 
+      229   1:label0   2:label1   +   0.694 
+      230   1:label0   1:label0       0.824 
+      231   1:label0   1:label0       0.509 
+      232   1:label0   1:label0       0.609 
+      233   1:label0   1:label0       0.388 
+      234   1:label0   2:label1   +   0.66 
+      235   1:label0   9:label8   +   0.836 
+      236   1:label0   2:label1   +   0.71 
+      237   1:label0   1:label0       0.821 
+      238   1:label0   2:label1   +   0.59 
+      239   1:label0   1:label0       0.927 
+      240   1:label0   1:label0       0.589 
+        1   6:label5   6:label5       0.916 
+        2   6:label5   6:label5       0.709 
+        3   6:label5   6:label5       0.796 
+        4   6:label5   6:label5       0.998 
+        5   6:label5   6:label5       0.985 
+        6   6:label5   6:label5       0.682 
+        7   6:label5   6:label5       0.995 
+        8   6:label5   6:label5       0.997 
+        9   6:label5   6:label5       0.864 
+       10   6:label5   6:label5       0.995 
+       11   6:label5   6:label5       0.851 
+       12   6:label5   6:label5       0.914 
+       13   6:label5   6:label5       0.774 
+       14   6:label5   6:label5       0.995 
+       15   6:label5   6:label5       0.904 
+       16   6:label5   6:label5       0.937 
+       17   6:label5   6:label5       0.983 
+       18   6:label5  10:label9   +   0.925 
+       19   6:label5   6:label5       0.997 
+       20   6:label5   6:label5       0.996 
+       21   6:label5   6:label5       0.971 
+       22   6:label5   6:label5       0.953 
+       23   6:label5   6:label5       0.969 
+       24   6:label5   6:label5       0.718 
+       25  10:label9  10:label9       0.985 
+       26  10:label9  10:label9       0.996 
+       27  10:label9  10:label9       0.949 
+       28  10:label9  10:label9       0.984 
+       29  10:label9  10:label9       0.98 
+       30  10:label9  10:label9       0.999 
+       31  10:label9  10:label9       0.989 
+       32  10:label9  10:label9       0.969 
+       33  10:label9  10:label9       0.997 
+       34  10:label9  10:label9       0.966 
+       35  10:label9  10:label9       0.96 
+       36  10:label9  10:label9       0.927 
+       37  10:label9  10:label9       0.862 
+       38  10:label9  10:label9       0.993 
+       39  10:label9  10:label9       0.912 
+       40  10:label9  10:label9       0.909 
+       41  10:label9  10:label9       0.988 
+       42  10:label9  10:label9       0.935 
+       43  10:label9  10:label9       0.994 
+       44  10:label9   6:label5   +   0.936 
+       45  10:label9   4:label3   +   0.768 
+       46  10:label9  10:label9       0.983 
+       47  10:label9  10:label9       0.946 
+       48  10:label9  10:label9       0.991 
+       49   3:label2   3:label2       0.927 
+       50   3:label2   3:label2       0.615 
+       51   3:label2   3:label2       0.965 
+       52   3:label2   3:label2       0.593 
+       53   3:label2   3:label2       0.777 
+       54   3:label2   3:label2       0.875 
+       55   3:label2   3:label2       0.949 
+       56   3:label2   3:label2       0.971 
+       57   3:label2   1:label0   +   0.434 
+       58   3:label2   3:label2       0.695 
+       59   3:label2   3:label2       0.963 
+       60   3:label2   3:label2       0.86 
+       61   3:label2   3:label2       0.862 
+       62   3:label2   3:label2       0.946 
+       63   3:label2   7:label6   +   0.795 
+       64   3:label2   3:label2       0.961 
+       65   3:label2   3:label2       0.962 
+       66   3:label2   3:label2       0.904 
+       67   3:label2   3:label2       0.959 
+       68   3:label2   3:label2       0.964 
+       69   3:label2   3:label2       0.758 
+       70   3:label2   3:label2       0.901 
+       71   3:label2   3:label2       0.81 
+       72   3:label2   3:label2       0.961 
+       73   4:label3   4:label3       0.902 
+       74   4:label3   4:label3       0.999 
+       75   4:label3   4:label3       0.999 
+       76   4:label3   4:label3       0.995 
+       77   4:label3   4:label3       0.993 
+       78   4:label3   5:label4   +   0.767 
+       79   4:label3   4:label3       0.999 
+       80   4:label3   4:label3       0.999 
+       81   4:label3   4:label3       0.938 
+       82   4:label3   4:label3       0.967 
+       83   4:label3   4:label3       0.763 
+       84   4:label3   4:label3       0.984 
+       85   4:label3   4:label3       0.999 
+       86   4:label3   4:label3       0.962 
+       87   4:label3   4:label3       0.793 
+       88   4:label3   4:label3       0.999 
+       89   4:label3   3:label2   +   0.538 
+       90   4:label3   4:label3       0.981 
+       91   4:label3   4:label3       0.999 
+       92   4:label3   4:label3       0.915 
+       93   4:label3   4:label3       0.876 
+       94   4:label3   4:label3       0.999 
+       95   4:label3   4:label3       0.732 
+       96   4:label3   4:label3       0.998 
+       97   5:label4   5:label4       0.977 
+       98   5:label4   5:label4       0.987 
+       99   5:label4   5:label4       0.99 
+      100   5:label4   5:label4       0.97 
+      101   5:label4   5:label4       0.984 
+      102   5:label4   5:label4       0.996 
+      103   5:label4  10:label9   +   0.599 
+      104   5:label4   5:label4       0.999 
+      105   5:label4   5:label4       0.995 
+      106   5:label4   5:label4       0.999 
+      107   5:label4   5:label4       0.985 
+      108   5:label4   5:label4       0.995 
+      109   5:label4   5:label4       0.98 
+      110   5:label4   5:label4       0.99 
+      111   5:label4   9:label8   +   0.594 
+      112   5:label4   5:label4       0.921 
+      113   5:label4   1:label0   +   0.613 
+      114   5:label4   2:label1   +   0.929 
+      115   5:label4   5:label4       0.84 
+      116   5:label4   5:label4       0.978 
+      117   5:label4   2:label1   +   0.896 
+      118   5:label4   2:label1   +   0.452 
+      119   5:label4   5:label4       0.995 
+      120   5:label4   5:label4       0.909 
+      121   7:label6   7:label6       0.95 
+      122   7:label6   7:label6       0.994 
+      123   7:label6   7:label6       0.913 
+      124   7:label6   7:label6       0.988 
+      125   7:label6   7:label6       0.997 
+      126   7:label6   7:label6       0.995 
+      127   7:label6   7:label6       0.994 
+      128   7:label6   7:label6       0.996 
+      129   7:label6   7:label6       0.912 
+      130   7:label6   7:label6       0.984 
+      131   7:label6   7:label6       0.995 
+      132   7:label6   7:label6       0.981 
+      133   7:label6   7:label6       0.997 
+      134   7:label6   7:label6       0.983 
+      135   7:label6   7:label6       0.978 
+      136   7:label6   1:label0   +   0.633 
+      137   7:label6   1:label0   +   0.491 
+      138   7:label6   6:label5   +   0.521 
+      139   7:label6   7:label6       0.99 
+      140   7:label6   7:label6       0.993 
+      141   7:label6   7:label6       0.99 
+      142   7:label6   7:label6       0.99 
+      143   7:label6   7:label6       0.984 
+      144   7:label6   7:label6       0.989 
+      145   2:label1   1:label0   +   0.566 
+      146   2:label1   1:label0   +   0.41 
+      147   2:label1   1:label0   +   0.926 
+      148   2:label1   1:label0   +   0.661 
+      149   2:label1   1:label0   +   0.538 
+      150   2:label1   1:label0   +   0.59 
+      151   2:label1   1:label0   +   0.605 
+      152   2:label1   1:label0   +   0.736 
+      153   2:label1   2:label1       0.981 
+      154   2:label1   1:label0   +   0.461 
+      155   2:label1   1:label0   +   0.716 
+      156   2:label1   6:label5   +   0.741 
+      157   2:label1   1:label0   +   0.55 
+      158   2:label1   1:label0   +   0.545 
+      159   2:label1   7:label6   +   0.357 
+      160   2:label1   1:label0   +   0.775 
+      161   2:label1   1:label0   +   0.756 
+      162   2:label1   1:label0   +   0.72 
+      163   2:label1   1:label0   +   0.408 
+      164   2:label1   2:label1       0.937 
+      165   2:label1   1:label0   +   0.565 
+      166   2:label1   2:label1       0.974 
+      167   2:label1   1:label0   +   0.582 
+      168   2:label1   6:label5   +   0.591 
+      169   8:label7   5:label4   +   0.755 
+      170   8:label7   1:label0   +   0.559 
+      171   8:label7   8:label7       0.981 
+      172   8:label7   8:label7       0.701 
+      173   8:label7   3:label2   +   0.752 
+      174   8:label7   8:label7       0.826 
+      175   8:label7   8:label7       0.965 
+      176   8:label7   8:label7       0.634 
+      177   8:label7   8:label7       0.933 
+      178   8:label7   8:label7       0.854 
+      179   8:label7   8:label7       0.978 
+      180   8:label7   8:label7       0.963 
+      181   8:label7   3:label2   +   0.702 
+      182   8:label7   8:label7       0.923 
+      183   8:label7   8:label7       0.948 
+      184   8:label7   8:label7       0.966 
+      185   8:label7   8:label7       0.976 
+      186   8:label7   3:label2   +   0.747 
+      187   8:label7   8:label7       0.928 
+      188   8:label7   8:label7       0.967 
+      189   8:label7   8:label7       0.969 
+      190   8:label7   8:label7       0.889 
+      191   8:label7   8:label7       0.83 
+      192   8:label7   8:label7       0.966 
+      193   9:label8   9:label8       0.998 
+      194   9:label8   9:label8       0.997 
+      195   9:label8   9:label8       0.932 
+      196   9:label8   9:label8       0.992 
+      197   9:label8   9:label8       0.639 
+      198   9:label8   9:label8       0.595 
+      199   9:label8   9:label8       0.802 
+      200   9:label8   9:label8       0.916 
+      201   9:label8   9:label8       0.944 
+      202   9:label8   9:label8       0.781 
+      203   9:label8   6:label5   +   0.568 
+      204   9:label8   9:label8       0.985 
+      205   9:label8   9:label8       0.982 
+      206   9:label8   1:label0   +   0.622 
+      207   9:label8   9:label8       0.991 
+      208   9:label8   9:label8       0.878 
+      209   9:label8   9:label8       0.887 
+      210   9:label8   9:label8       0.932 
+      211   9:label8   9:label8       0.94 
+      212   9:label8   9:label8       0.643 
+      213   9:label8   9:label8       0.625 
+      214   9:label8   9:label8       0.99 
+      215   9:label8   9:label8       0.997 
+      216   9:label8   9:label8       0.895 
+      217   1:label0   3:label2   +   0.955 
+      218   1:label0   6:label5   +   0.496 
+      219   1:label0   1:label0       0.66 
+      220   1:label0   1:label0       0.604 
+      221   1:label0   1:label0       0.858 
+      222   1:label0   4:label3   +   0.726 
+      223   1:label0   1:label0       0.758 
+      224   1:label0   2:label1   +   0.495 
+      225   1:label0   1:label0       0.951 
+      226   1:label0   1:label0       0.73 
+      227   1:label0   2:label1   +   0.718 
+      228   1:label0   1:label0       0.676 
+      229   1:label0   5:label4   +   0.814 
+      230   1:label0   6:label5   +   0.767 
+      231   1:label0   1:label0       0.516 
+      232   1:label0   1:label0       0.695 
+      233   1:label0   1:label0       0.443 
+      234   1:label0   2:label1   +   0.527 
+      235   1:label0   1:label0       0.511 
+      236   1:label0   9:label8   +   0.576 
+      237   1:label0   1:label0       0.687 
+      238   1:label0   1:label0       0.628 
+      239   1:label0   1:label0       0.617 
+      240   1:label0   1:label0       0.595 
+        1   6:label5   6:label5       0.994 
+        2   6:label5   6:label5       0.99 
+        3   6:label5   2:label1   +   0.828 
+        4   6:label5   6:label5       0.982 
+        5   6:label5   6:label5       0.801 
+        6   6:label5   6:label5       0.94 
+        7   6:label5   6:label5       0.873 
+        8   6:label5   6:label5       0.996 
+        9   6:label5  10:label9   +   0.659 
+       10   6:label5   6:label5       0.603 
+       11   6:label5   6:label5       0.997 
+       12   6:label5   6:label5       0.992 
+       13   6:label5   9:label8   +   0.721 
+       14   6:label5   6:label5       0.988 
+       15   6:label5   6:label5       0.48 
+       16   6:label5   6:label5       0.992 
+       17   6:label5   6:label5       0.851 
+       18   6:label5   6:label5       0.785 
+       19   6:label5   6:label5       0.969 
+       20   6:label5   6:label5       0.807 
+       21   6:label5   6:label5       0.781 
+       22   6:label5   6:label5       0.981 
+       23   6:label5   6:label5       0.993 
+       24   6:label5   6:label5       0.82 
+       25  10:label9  10:label9       0.911 
+       26  10:label9  10:label9       0.986 
+       27  10:label9  10:label9       0.971 
+       28  10:label9  10:label9       0.895 
+       29  10:label9  10:label9       0.995 
+       30  10:label9  10:label9       0.992 
+       31  10:label9  10:label9       0.992 
+       32  10:label9  10:label9       0.997 
+       33  10:label9  10:label9       0.998 
+       34  10:label9  10:label9       0.983 
+       35  10:label9  10:label9       0.993 
+       36  10:label9  10:label9       0.8 
+       37  10:label9  10:label9       0.996 
+       38  10:label9  10:label9       0.531 
+       39  10:label9  10:label9       0.998 
+       40  10:label9  10:label9       0.998 
+       41  10:label9  10:label9       0.872 
+       42  10:label9  10:label9       0.98 
+       43  10:label9  10:label9       0.986 
+       44  10:label9  10:label9       0.958 
+       45  10:label9   2:label1   +   0.465 
+       46  10:label9  10:label9       0.998 
+       47  10:label9  10:label9       0.982 
+       48  10:label9  10:label9       0.837 
+       49   3:label2   3:label2       0.874 
+       50   3:label2   3:label2       0.88 
+       51   3:label2   3:label2       0.961 
+       52   3:label2   3:label2       0.714 
+       53   3:label2   3:label2       0.876 
+       54   3:label2   3:label2       0.734 
+       55   3:label2   3:label2       0.968 
+       56   3:label2   3:label2       0.798 
+       57   3:label2   3:label2       0.932 
+       58   3:label2   3:label2       0.937 
+       59   3:label2   3:label2       0.701 
+       60   3:label2   8:label7   +   0.777 
+       61   3:label2   8:label7   +   0.724 
+       62   3:label2   3:label2       0.809 
+       63   3:label2   3:label2       0.688 
+       64   3:label2   3:label2       0.87 
+       65   3:label2   3:label2       0.741 
+       66   3:label2   9:label8   +   0.466 
+       67   3:label2   3:label2       0.698 
+       68   3:label2   8:label7   +   0.835 
+       69   3:label2   3:label2       0.886 
+       70   3:label2   3:label2       0.484 
+       71   3:label2   8:label7   +   0.556 
+       72   3:label2   3:label2       0.895 
+       73   4:label3   4:label3       0.995 
+       74   4:label3   4:label3       0.98 
+       75   4:label3   4:label3       0.991 
+       76   4:label3   4:label3       0.964 
+       77   4:label3   4:label3       0.981 
+       78   4:label3   4:label3       0.977 
+       79   4:label3   4:label3       0.991 
+       80   4:label3   4:label3       0.952 
+       81   4:label3   4:label3       0.974 
+       82   4:label3   1:label0   +   0.338 
+       83   4:label3   4:label3       0.914 
+       84   4:label3   4:label3       0.999 
+       85   4:label3   4:label3       0.999 
+       86   4:label3   9:label8   +   0.776 
+       87   4:label3   4:label3       0.998 
+       88   4:label3   4:label3       0.981 
+       89   4:label3   4:label3       0.994 
+       90   4:label3   4:label3       0.993 
+       91   4:label3   4:label3       0.998 
+       92   4:label3   4:label3       0.934 
+       93   4:label3   4:label3       0.991 
+       94   4:label3   4:label3       0.964 
+       95   4:label3   4:label3       0.875 
+       96   4:label3   4:label3       0.995 
+       97   5:label4   9:label8   +   0.48 
+       98   5:label4   5:label4       0.998 
+       99   5:label4   8:label7   +   0.959 
+      100   5:label4   5:label4       0.999 
+      101   5:label4   5:label4       0.344 
+      102   5:label4   9:label8   +   0.802 
+      103   5:label4   9:label8   +   0.595 
+      104   5:label4   2:label1   +   0.982 
+      105   5:label4   8:label7   +   0.887 
+      106   5:label4   5:label4       0.965 
+      107   5:label4   7:label6   +   0.74 
+      108   5:label4   9:label8   +   0.654 
+      109   5:label4   8:label7   +   0.499 
+      110   5:label4   5:label4       0.991 
+      111   5:label4   5:label4       0.998 
+      112   5:label4   5:label4       0.982 
+      113   5:label4   5:label4       0.954 
+      114   5:label4   5:label4       0.951 
+      115   5:label4   5:label4       0.984 
+      116   5:label4   5:label4       0.965 
+      117   5:label4   5:label4       0.985 
+      118   5:label4   5:label4       0.997 
+      119   5:label4   5:label4       0.994 
+      120   5:label4   5:label4       0.732 
+      121   7:label6   7:label6       0.987 
+      122   7:label6   7:label6       0.988 
+      123   7:label6   7:label6       0.991 
+      124   7:label6   7:label6       0.993 
+      125   7:label6   5:label4   +   0.493 
+      126   7:label6   7:label6       0.962 
+      127   7:label6   7:label6       0.972 
+      128   7:label6   9:label8   +   0.878 
+      129   7:label6   9:label8   +   0.53 
+      130   7:label6   7:label6       0.998 
+      131   7:label6   1:label0   +   0.547 
+      132   7:label6   1:label0   +   0.466 
+      133   7:label6   7:label6       0.967 
+      134   7:label6   7:label6       0.979 
+      135   7:label6   7:label6       0.989 
+      136   7:label6   7:label6       0.979 
+      137   7:label6   8:label7   +   0.828 
+      138   7:label6   7:label6       0.844 
+      139   7:label6   7:label6       0.96 
+      140   7:label6   9:label8   +   0.507 
+      141   7:label6   7:label6       0.998 
+      142   7:label6   7:label6       0.587 
+      143   7:label6   7:label6       0.932 
+      144   7:label6   7:label6       0.971 
+      145   2:label1   1:label0   +   0.534 
+      146   2:label1   2:label1       0.915 
+      147   2:label1   2:label1       0.924 
+      148   2:label1   2:label1       0.516 
+      149   2:label1   2:label1       0.805 
+      150   2:label1   2:label1       0.431 
+      151   2:label1   9:label8   +   0.459 
+      152   2:label1   2:label1       0.712 
+      153   2:label1   9:label8   +   0.666 
+      154   2:label1   2:label1       0.878 
+      155   2:label1   2:label1       0.939 
+      156   2:label1   2:label1       0.927 
+      157   2:label1   9:label8   +   0.904 
+      158   2:label1   2:label1       0.438 
+      159   2:label1   2:label1       0.792 
+      160   2:label1   1:label0   +   0.567 
+      161   2:label1   2:label1       0.773 
+      162   2:label1   2:label1       0.634 
+      163   2:label1   9:label8   +   0.288 
+      164   2:label1   2:label1       0.732 
+      165   2:label1   2:label1       0.483 
+      166   2:label1   2:label1       0.395 
+      167   2:label1   1:label0   +   0.688 
+      168   2:label1   2:label1       0.514 
+      169   8:label7   8:label7       0.709 
+      170   8:label7   8:label7       0.976 
+      171   8:label7   8:label7       0.975 
+      172   8:label7   8:label7       0.956 
+      173   8:label7   8:label7       0.762 
+      174   8:label7   8:label7       0.952 
+      175   8:label7   8:label7       0.975 
+      176   8:label7   8:label7       0.913 
+      177   8:label7   8:label7       0.971 
+      178   8:label7   8:label7       0.708 
+      179   8:label7   8:label7       0.674 
+      180   8:label7   8:label7       0.953 
+      181   8:label7   8:label7       0.908 
+      182   8:label7   8:label7       0.966 
+      183   8:label7   1:label0   +   0.77 
+      184   8:label7   8:label7       0.839 
+      185   8:label7   8:label7       0.967 
+      186   8:label7   5:label4   +   0.704 
+      187   8:label7   8:label7       0.978 
+      188   8:label7   8:label7       0.955 
+      189   8:label7   8:label7       0.637 
+      190   8:label7   8:label7       0.964 
+      191   8:label7   8:label7       0.876 
+      192   8:label7   8:label7       0.967 
+      193   9:label8   9:label8       0.955 
+      194   9:label8   9:label8       0.964 
+      195   9:label8   9:label8       0.994 
+      196   9:label8   9:label8       0.557 
+      197   9:label8   9:label8       0.982 
+      198   9:label8   9:label8       0.934 
+      199   9:label8   9:label8       0.986 
+      200   9:label8   9:label8       0.973 
+      201   9:label8   9:label8       0.976 
+      202   9:label8   9:label8       0.916 
+      203   9:label8   9:label8       0.859 
+      204   9:label8   9:label8       0.87 
+      205   9:label8   9:label8       0.687 
+      206   9:label8   9:label8       0.781 
+      207   9:label8   9:label8       0.807 
+      208   9:label8   9:label8       0.947 
+      209   9:label8   9:label8       0.948 
+      210   9:label8   9:label8       0.687 
+      211   9:label8   9:label8       0.989 
+      212   9:label8   9:label8       0.854 
+      213   9:label8   8:label7   +   0.987 
+      214   9:label8   9:label8       0.919 
+      215   9:label8   9:label8       0.98 
+      216   9:label8   9:label8       0.626 
+      217   1:label0   2:label1   +   0.624 
+      218   1:label0   2:label1   +   0.481 
+      219   1:label0   2:label1   +   0.727 
+      220   1:label0   1:label0       0.838 
+      221   1:label0   8:label7   +   0.542 
+      222   1:label0   2:label1   +   0.622 
+      223   1:label0   5:label4   +   0.772 
+      224   1:label0   1:label0       0.594 
+      225   1:label0   9:label8   +   0.388 
+      226   1:label0   2:label1   +   0.596 
+      227   1:label0   2:label1   +   0.622 
+      228   1:label0   2:label1   +   0.51 
+      229   1:label0   8:label7   +   0.988 
+      230   1:label0   2:label1   +   0.837 
+      231   1:label0   2:label1   +   0.951 
+      232   1:label0   2:label1   +   0.675 
+      233   1:label0   5:label4   +   0.929 
+      234   1:label0   9:label8   +   0.734 
+      235   1:label0   2:label1   +   0.683 
+      236   1:label0   1:label0       0.56 
+      237   1:label0   2:label1   +   0.382 
+      238   1:label0   2:label1   +   0.661 
+      239   1:label0   1:label0       0.427 
+      240   1:label0   1:label0       0.663 
+        1   6:label5   6:label5       0.991 
+        2   6:label5   6:label5       0.753 
+        3   6:label5   9:label8   +   0.386 
+        4   6:label5   6:label5       0.816 
+        5   6:label5   6:label5       0.654 
+        6   6:label5   6:label5       0.969 
+        7   6:label5   6:label5       0.993 
+        8   6:label5   6:label5       0.998 
+        9   6:label5   6:label5       0.983 
+       10   6:label5   6:label5       0.971 
+       11   6:label5   6:label5       0.955 
+       12   6:label5   6:label5       0.684 
+       13   6:label5   6:label5       0.993 
+       14   6:label5   6:label5       0.974 
+       15   6:label5   4:label3   +   0.499 
+       16   6:label5   6:label5       0.994 
+       17   6:label5   6:label5       0.841 
+       18   6:label5   6:label5       0.978 
+       19   6:label5   6:label5       0.949 
+       20   6:label5   6:label5       0.996 
+       21   6:label5   6:label5       0.988 
+       22   6:label5   6:label5       0.974 
+       23   6:label5   6:label5       0.963 
+       24   6:label5   9:label8   +   0.489 
+       25  10:label9  10:label9       0.977 
+       26  10:label9  10:label9       0.997 
+       27  10:label9  10:label9       0.983 
+       28  10:label9  10:label9       0.957 
+       29  10:label9   6:label5   +   0.774 
+       30  10:label9  10:label9       0.988 
+       31  10:label9  10:label9       0.971 
+       32  10:label9  10:label9       0.968 
+       33  10:label9  10:label9       0.992 
+       34  10:label9  10:label9       0.986 
+       35  10:label9  10:label9       0.988 
+       36  10:label9  10:label9       0.75 
+       37  10:label9  10:label9       0.99 
+       38  10:label9  10:label9       0.972 
+       39  10:label9   6:label5   +   0.91 
+       40  10:label9   6:label5   +   0.867 
+       41  10:label9  10:label9       0.971 
+       42  10:label9  10:label9       0.955 
+       43  10:label9  10:label9       0.995 
+       44  10:label9  10:label9       0.965 
+       45  10:label9  10:label9       0.85 
+       46  10:label9  10:label9       0.984 
+       47  10:label9  10:label9       0.937 
+       48  10:label9  10:label9       0.996 
+       49   3:label2   3:label2       0.601 
+       50   3:label2   3:label2       0.501 
+       51   3:label2   3:label2       0.84 
+       52   3:label2   3:label2       0.979 
+       53   3:label2   3:label2       0.699 
+       54   3:label2   3:label2       0.907 
+       55   3:label2   3:label2       0.695 
+       56   3:label2   3:label2       0.928 
+       57   3:label2   8:label7   +   0.684 
+       58   3:label2   3:label2       0.618 
+       59   3:label2   3:label2       0.912 
+       60   3:label2   8:label7   +   0.775 
+       61   3:label2   8:label7   +   0.963 
+       62   3:label2   3:label2       0.687 
+       63   3:label2   3:label2       0.937 
+       64   3:label2   6:label5   +   0.438 
+       65   3:label2   3:label2       0.987 
+       66   3:label2   3:label2       0.978 
+       67   3:label2   3:label2       0.953 
+       68   3:label2   1:label0   +   0.772 
+       69   3:label2   3:label2       0.873 
+       70   3:label2   3:label2       0.99 
+       71   3:label2   3:label2       0.587 
+       72   3:label2   3:label2       0.89 
+       73   4:label3   4:label3       0.929 
+       74   4:label3   4:label3       0.98 
+       75   4:label3   4:label3       0.992 
+       76   4:label3   4:label3       1 
+       77   4:label3   4:label3       0.997 
+       78   4:label3   2:label1   +   0.467 
+       79   4:label3   4:label3       0.992 
+       80   4:label3   4:label3       0.48 
+       81   4:label3   4:label3       0.998 
+       82   4:label3   4:label3       0.998 
+       83   4:label3   4:label3       0.872 
+       84   4:label3   4:label3       0.808 
+       85   4:label3  10:label9   +   0.979 
+       86   4:label3   4:label3       0.965 
+       87   4:label3   6:label5   +   0.531 
+       88   4:label3   4:label3       0.985 
+       89   4:label3   6:label5   +   0.776 
+       90   4:label3   4:label3       1 
+       91   4:label3   4:label3       0.95 
+       92   4:label3   4:label3       0.997 
+       93   4:label3   4:label3       0.537 
+       94   4:label3   4:label3       0.97 
+       95   4:label3   1:label0   +   0.367 
+       96   4:label3   4:label3       0.997 
+       97   5:label4   5:label4       0.807 
+       98   5:label4   5:label4       0.979 
+       99   5:label4   5:label4       0.965 
+      100   5:label4   9:label8   +   0.769 
+      101   5:label4   5:label4       0.932 
+      102   5:label4   2:label1   +   0.426 
+      103   5:label4   5:label4       0.96 
+      104   5:label4   5:label4       0.983 
+      105   5:label4   7:label6   +   0.732 
+      106   5:label4   5:label4       0.61 
+      107   5:label4   5:label4       0.563 
+      108   5:label4   5:label4       0.895 
+      109   5:label4   5:label4       0.954 
+      110   5:label4   5:label4       0.853 
+      111   5:label4   5:label4       0.943 
+      112   5:label4   5:label4       0.994 
+      113   5:label4   5:label4       0.862 
+      114   5:label4   5:label4       0.933 
+      115   5:label4   5:label4       0.994 
+      116   5:label4   5:label4       0.911 
+      117   5:label4   5:label4       0.855 
+      118   5:label4   5:label4       0.78 
+      119   5:label4   5:label4       0.985 
+      120   5:label4   5:label4       0.844 
+      121   7:label6   7:label6       0.782 
+      122   7:label6   7:label6       0.995 
+      123   7:label6   7:label6       0.998 
+      124   7:label6   7:label6       0.993 
+      125   7:label6   7:label6       0.991 
+      126   7:label6   7:label6       0.998 
+      127   7:label6   7:label6       0.674 
+      128   7:label6   7:label6       0.992 
+      129   7:label6   7:label6       0.994 
+      130   7:label6   7:label6       0.998 
+      131   7:label6   7:label6       0.993 
+      132   7:label6   7:label6       0.993 
+      133   7:label6   7:label6       0.999 
+      134   7:label6   7:label6       0.992 
+      135   7:label6   5:label4   +   0.266 
+      136   7:label6   7:label6       0.997 
+      137   7:label6   7:label6       0.997 
+      138   7:label6   7:label6       0.996 
+      139   7:label6   7:label6       0.998 
+      140   7:label6   7:label6       0.986 
+      141   7:label6   7:label6       0.98 
+      142   7:label6   7:label6       0.972 
+      143   7:label6   7:label6       0.993 
+      144   7:label6   2:label1   +   0.552 
+      145   2:label1   2:label1       0.766 
+      146   2:label1   2:label1       0.738 
+      147   2:label1   1:label0   +   0.588 
+      148   2:label1   2:label1       0.808 
+      149   2:label1   2:label1       0.537 
+      150   2:label1   1:label0   +   0.782 
+      151   2:label1   1:label0   +   0.529 
+      152   2:label1   2:label1       0.635 
+      153   2:label1   1:label0   +   0.732 
+      154   2:label1   2:label1       0.764 
+      155   2:label1   2:label1       0.714 
+      156   2:label1   2:label1       0.59 
+      157   2:label1   1:label0   +   0.557 
+      158   2:label1   1:label0   +   0.485 
+      159   2:label1   2:label1       0.506 
+      160   2:label1   1:label0   +   0.74 
+      161   2:label1   1:label0   +   0.779 
+      162   2:label1   2:label1       0.61 
+      163   2:label1   2:label1       0.624 
+      164   2:label1   1:label0   +   0.722 
+      165   2:label1   2:label1       0.556 
+      166   2:label1   2:label1       0.97 
+      167   2:label1   2:label1       0.728 
+      168   2:label1   1:label0   +   0.874 
+      169   8:label7   3:label2   +   0.394 
+      170   8:label7   8:label7       0.583 
+      171   8:label7   8:label7       0.902 
+      172   8:label7   8:label7       0.99 
+      173   8:label7   3:label2   +   0.526 
+      174   8:label7   8:label7       0.982 
+      175   8:label7   3:label2   +   0.465 
+      176   8:label7   8:label7       0.99 
+      177   8:label7   8:label7       0.934 
+      178   8:label7   8:label7       0.755 
+      179   8:label7   8:label7       0.993 
+      180   8:label7   8:label7       0.993 
+      181   8:label7   8:label7       0.971 
+      182   8:label7   3:label2   +   0.396 
+      183   8:label7   3:label2   +   0.889 
+      184   8:label7   8:label7       0.993 
+      185   8:label7   8:label7       0.988 
+      186   8:label7   8:label7       0.966 
+      187   8:label7   8:label7       0.986 
+      188   8:label7   8:label7       0.51 
+      189   8:label7   8:label7       0.993 
+      190   8:label7   8:label7       0.56 
+      191   8:label7   8:label7       0.99 
+      192   8:label7   8:label7       0.944 
+      193   9:label8   9:label8       0.376 
+      194   9:label8   9:label8       0.996 
+      195   9:label8   9:label8       0.992 
+      196   9:label8   9:label8       0.807 
+      197   9:label8   9:label8       0.99 
+      198   9:label8   9:label8       0.421 
+      199   9:label8   9:label8       0.944 
+      200   9:label8   9:label8       0.819 
+      201   9:label8   9:label8       0.968 
+      202   9:label8   9:label8       0.968 
+      203   9:label8   9:label8       0.834 
+      204   9:label8   9:label8       0.988 
+      205   9:label8   9:label8       0.976 
+      206   9:label8   9:label8       0.599 
+      207   9:label8   9:label8       0.947 
+      208   9:label8   9:label8       0.993 
+      209   9:label8   9:label8       0.996 
+      210   9:label8   9:label8       0.51 
+      211   9:label8   9:label8       0.795 
+      212   9:label8   9:label8       0.995 
+      213   9:label8   6:label5   +   0.948 
+      214   9:label8   9:label8       0.957 
+      215   9:label8   9:label8       0.927 
+      216   9:label8   9:label8       0.983 
+      217   1:label0   1:label0       0.783 
+      218   1:label0   1:label0       0.638 
+      219   1:label0   1:label0       0.775 
+      220   1:label0   2:label1   +   0.666 
+      221   1:label0   2:label1   +   0.483 
+      222   1:label0   5:label4   +   0.962 
+      223   1:label0   1:label0       0.85 
+      224   1:label0   2:label1   +   0.502 
+      225   1:label0   2:label1   +   0.539 
+      226   1:label0   2:label1   +   0.358 
+      227   1:label0   1:label0       0.833 
+      228   1:label0   1:label0       0.592 
+      229   1:label0   1:label0       0.611 
+      230   1:label0   2:label1   +   0.565 
+      231   1:label0   1:label0       0.515 
+      232   1:label0   2:label1   +   0.525 
+      233   1:label0   1:label0       0.836 
+      234   1:label0   2:label1   +   0.547 
+      235   1:label0   2:label1   +   0.463 
+      236   1:label0   1:label0       0.577 
+      237   1:label0   1:label0       0.543 
+      238   1:label0   1:label0       0.832 
+      239   1:label0   2:label1   +   0.55 
+      240   1:label0   1:label0       0.602 
+        1   6:label5   6:label5       0.901 
+        2   6:label5   7:label6   +   0.782 
+        3   6:label5   6:label5       0.957 
+        4   6:label5   6:label5       0.97 
+        5   6:label5   6:label5       0.947 
+        6   6:label5   6:label5       0.967 
+        7   6:label5   6:label5       0.952 
+        8   6:label5   6:label5       0.987 
+        9   6:label5   6:label5       0.529 
+       10   6:label5   6:label5       0.946 
+       11   6:label5  10:label9   +   0.926 
+       12   6:label5   1:label0   +   0.629 
+       13   6:label5   6:label5       0.698 
+       14   6:label5   6:label5       0.991 
+       15   6:label5   6:label5       0.946 
+       16   6:label5   6:label5       0.982 
+       17   6:label5   6:label5       0.985 
+       18   6:label5   7:label6   +   0.731 
+       19   6:label5   6:label5       0.968 
+       20   6:label5   6:label5       0.957 
+       21   6:label5   6:label5       0.981 
+       22   6:label5   6:label5       0.973 
+       23   6:label5   5:label4   +   0.397 
+       24   6:label5   6:label5       0.983 
+       25  10:label9  10:label9       0.991 
+       26  10:label9  10:label9       0.712 
+       27  10:label9  10:label9       0.989 
+       28  10:label9  10:label9       0.971 
+       29  10:label9  10:label9       0.934 
+       30  10:label9  10:label9       0.908 
+       31  10:label9  10:label9       0.445 
+       32  10:label9  10:label9       0.926 
+       33  10:label9  10:label9       0.993 
+       34  10:label9  10:label9       0.989 
+       35  10:label9  10:label9       0.921 
+       36  10:label9  10:label9       0.969 
+       37  10:label9  10:label9       0.986 
+       38  10:label9  10:label9       0.922 
+       39  10:label9  10:label9       0.981 
+       40  10:label9  10:label9       0.971 
+       41  10:label9   6:label5   +   0.626 
+       42  10:label9  10:label9       0.995 
+       43  10:label9  10:label9       0.974 
+       44  10:label9  10:label9       0.974 
+       45  10:label9  10:label9       0.978 
+       46  10:label9  10:label9       0.994 
+       47  10:label9   6:label5   +   0.975 
+       48  10:label9  10:label9       0.698 
+       49   3:label2   3:label2       0.93 
+       50   3:label2   3:label2       0.878 
+       51   3:label2   3:label2       0.668 
+       52   3:label2   3:label2       0.845 
+       53   3:label2   3:label2       0.9 
+       54   3:label2   3:label2       0.511 
+       55   3:label2   3:label2       0.853 
+       56   3:label2   3:label2       0.596 
+       57   3:label2   3:label2       0.815 
+       58   3:label2   3:label2       0.79 
+       59   3:label2   3:label2       0.934 
+       60   3:label2   3:label2       0.904 
+       61   3:label2   8:label7   +   0.967 
+       62   3:label2   8:label7   +   0.595 
+       63   3:label2   3:label2       0.823 
+       64   3:label2   8:label7   +   0.511 
+       65   3:label2   3:label2       0.616 
+       66   3:label2   3:label2       0.835 
+       67   3:label2   3:label2       0.685 
+       68   3:label2   3:label2       0.815 
+       69   3:label2   3:label2       0.911 
+       70   3:label2   9:label8   +   0.681 
+       71   3:label2   3:label2       0.743 
+       72   3:label2   3:label2       0.535 
+       73   4:label3   4:label3       0.994 
+       74   4:label3   4:label3       0.99 
+       75   4:label3   4:label3       0.753 
+       76   4:label3   4:label3       0.971 
+       77   4:label3   4:label3       0.988 
+       78   4:label3   4:label3       0.878 
+       79   4:label3   4:label3       0.946 
+       80   4:label3   4:label3       0.969 
+       81   4:label3   4:label3       0.97 
+       82   4:label3   4:label3       0.968 
+       83   4:label3   4:label3       0.99 
+       84   4:label3   4:label3       0.992 
+       85   4:label3   4:label3       0.999 
+       86   4:label3   4:label3       0.993 
+       87   4:label3   4:label3       0.979 
+       88   4:label3   5:label4   +   0.446 
+       89   4:label3   4:label3       0.972 
+       90   4:label3   2:label1   +   0.705 
+       91   4:label3   5:label4   +   0.763 
+       92   4:label3   4:label3       0.988 
+       93   4:label3   4:label3       0.942 
+       94   4:label3   4:label3       0.989 
+       95   4:label3   4:label3       0.973 
+       96   4:label3   4:label3       0.971 
+       97   5:label4   5:label4       0.969 
+       98   5:label4   5:label4       0.847 
+       99   5:label4   5:label4       0.572 
+      100   5:label4   5:label4       0.934 
+      101   5:label4   5:label4       0.977 
+      102   5:label4   5:label4       0.977 
+      103   5:label4   5:label4       0.995 
+      104   5:label4   5:label4       0.946 
+      105   5:label4   5:label4       0.848 
+      106   5:label4   5:label4       0.991 
+      107   5:label4   5:label4       0.992 
+      108   5:label4   5:label4       0.498 
+      109   5:label4   5:label4       0.648 
+      110   5:label4   8:label7   +   0.829 
+      111   5:label4   5:label4       0.947 
+      112   5:label4   5:label4       0.673 
+      113   5:label4   5:label4       0.964 
+      114   5:label4   2:label1   +   0.942 
+      115   5:label4   5:label4       0.551 
+      116   5:label4   5:label4       0.889 
+      117   5:label4   5:label4       0.837 
+      118   5:label4   5:label4       0.997 
+      119   5:label4   5:label4       0.957 
+      120   5:label4   5:label4       0.999 
+      121   7:label6   7:label6       0.992 
+      122   7:label6   7:label6       0.991 
+      123   7:label6   2:label1   +   0.877 
+      124   7:label6   7:label6       0.996 
+      125   7:label6   9:label8   +   0.579 
+      126   7:label6   5:label4   +   0.832 
+      127   7:label6   7:label6       0.998 
+      128   7:label6   7:label6       0.896 
+      129   7:label6   7:label6       0.969 
+      130   7:label6   7:label6       0.998 
+      131   7:label6   7:label6       0.995 
+      132   7:label6   7:label6       0.836 
+      133   7:label6   9:label8   +   0.901 
+      134   7:label6   7:label6       0.949 
+      135   7:label6   7:label6       0.936 
+      136   7:label6   7:label6       0.991 
+      137   7:label6   7:label6       0.92 
+      138   7:label6   7:label6       0.658 
+      139   7:label6   7:label6       0.964 
+      140   7:label6   7:label6       0.978 
+      141   7:label6   7:label6       0.995 
+      142   7:label6   7:label6       0.916 
+      143   7:label6   7:label6       0.947 
+      144   7:label6   7:label6       0.674 
+      145   2:label1   5:label4   +   0.534 
+      146   2:label1   5:label4   +   0.506 
+      147   2:label1   2:label1       0.611 
+      148   2:label1   2:label1       0.701 
+      149   2:label1   2:label1       0.678 
+      150   2:label1  10:label9   +   0.558 
+      151   2:label1   2:label1       0.622 
+      152   2:label1   2:label1       0.785 
+      153   2:label1   2:label1       0.677 
+      154   2:label1   1:label0   +   0.819 
+      155   2:label1   2:label1       0.475 
+      156   2:label1   2:label1       0.665 
+      157   2:label1   7:label6   +   0.457 
+      158   2:label1   9:label8   +   0.761 
+      159   2:label1   2:label1       0.621 
+      160   2:label1   2:label1       0.847 
+      161   2:label1   5:label4   +   0.631 
+      162   2:label1   2:label1       0.447 
+      163   2:label1   2:label1       0.618 
+      164   2:label1   2:label1       0.844 
+      165   2:label1   2:label1       0.714 
+      166   2:label1   2:label1       0.724 
+      167   2:label1   2:label1       0.724 
+      168   2:label1   2:label1       0.966 
+      169   8:label7   8:label7       0.832 
+      170   8:label7   8:label7       0.933 
+      171   8:label7   8:label7       0.901 
+      172   8:label7   8:label7       0.98 
+      173   8:label7   8:label7       0.959 
+      174   8:label7   8:label7       0.98 
+      175   8:label7   4:label3   +   0.557 
+      176   8:label7   8:label7       0.98 
+      177   8:label7   8:label7       0.981 
+      178   8:label7   8:label7       0.98 
+      179   8:label7   8:label7       0.941 
+      180   8:label7   5:label4   +   0.385 
+      181   8:label7   8:label7       0.977 
+      182   8:label7   8:label7       0.981 
+      183   8:label7   8:label7       0.788 
+      184   8:label7   8:label7       0.904 
+      185   8:label7   8:label7       0.947 
+      186   8:label7   8:label7       0.98 
+      187   8:label7   8:label7       0.844 
+      188   8:label7   8:label7       0.98 
+      189   8:label7   8:label7       0.571 
+      190   8:label7   8:label7       0.981 
+      191   8:label7   8:label7       0.981 
+      192   8:label7   8:label7       0.441 
+      193   9:label8   9:label8       0.953 
+      194   9:label8   9:label8       0.959 
+      195   9:label8   9:label8       0.819 
+      196   9:label8   9:label8       0.865 
+      197   9:label8   9:label8       0.92 
+      198   9:label8   9:label8       0.925 
+      199   9:label8   9:label8       0.872 
+      200   9:label8   9:label8       0.909 
+      201   9:label8   9:label8       0.67 
+      202   9:label8   9:label8       0.907 
+      203   9:label8   9:label8       0.879 
+      204   9:label8   9:label8       0.946 
+      205   9:label8   9:label8       0.997 
+      206   9:label8   9:label8       0.835 
+      207   9:label8   9:label8       0.902 
+      208   9:label8   9:label8       0.988 
+      209   9:label8   9:label8       0.859 
+      210   9:label8   9:label8       0.859 
+      211   9:label8   9:label8       0.841 
+      212   9:label8   9:label8       0.908 
+      213   9:label8   9:label8       0.884 
+      214   9:label8   9:label8       0.926 
+      215   9:label8   9:label8       0.962 
+      216   9:label8   9:label8       0.891 
+      217   1:label0   2:label1   +   0.974 
+      218   1:label0   2:label1   +   0.721 
+      219   1:label0   2:label1   +   0.446 
+      220   1:label0   1:label0       0.838 
+      221   1:label0   2:label1   +   0.774 
+      222   1:label0   2:label1   +   0.435 
+      223   1:label0   2:label1   +   0.819 
+      224   1:label0   2:label1   +   0.681 
+      225   1:label0   9:label8   +   0.955 
+      226   1:label0   1:label0       0.835 
+      227   1:label0   2:label1   +   0.699 
+      228   1:label0   1:label0       0.571 
+      229   1:label0   2:label1   +   0.746 
+      230   1:label0   2:label1   +   0.934 
+      231   1:label0   2:label1   +   0.593 
+      232   1:label0   2:label1   +   0.64 
+      233   1:label0   2:label1   +   0.701 
+      234   1:label0   2:label1   +   0.425 
+      235   1:label0   2:label1   +   0.666 
+      236   1:label0   2:label1   +   0.858 
+      237   1:label0   8:label7   +   0.49 
+      238   1:label0   1:label0       0.587 
+      239   1:label0   2:label1   +   0.682 
+      240   1:label0   2:label1   +   0.425 
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1932               80.5    %
+Incorrectly Classified Instances       468               19.5    %
+Kappa statistic                          0.7833
+Mean absolute error                      0.0503
+Root mean squared error                  0.166 
+Relative absolute error                 27.9689 %
+Root relative squared error             55.3374 %
+Total Number of Instances             2400     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.450    0.042    0.545      0.450    0.493      0.445    0.916     0.547     label0
+                 0.592    0.065    0.504      0.592    0.544      0.491    0.921     0.525     label1
+                 0.896    0.018    0.850      0.896    0.872      0.858    0.987     0.926     label2
+                 0.892    0.007    0.934      0.892    0.913      0.903    0.983     0.955     label3
+                 0.808    0.014    0.866      0.808    0.836      0.819    0.968     0.901     label4
+                 0.908    0.015    0.869      0.908    0.888      0.875    0.984     0.938     label5
+                 0.833    0.008    0.922      0.833    0.875      0.864    0.959     0.913     label6
+                 0.825    0.016    0.850      0.825    0.837      0.820    0.970     0.866     label7
+                 0.913    0.023    0.814      0.913    0.861      0.846    0.977     0.926     label8
+                 0.933    0.009    0.918      0.933    0.926      0.917    0.997     0.960     label9
+Weighted Avg.    0.805    0.022    0.807      0.805    0.804      0.784    0.966     0.846     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+ 108  99   4   2   6   3   1   3  12   2 |   a = label0
+  67 142   2   2   4   2   3   4  10   4 |   b = label1
+   2   0 215   0   0   1   1  19   2   0 |   c = label2
+   3   3   3 214   6   3   3   0   1   4 |   d = label3
+   6  17   6   0 194   0   2   4  10   1 |   e = label4
+   1   4   0   1   2 218   2   0   4   8 |   f = label5
+   5  11   3   1   6   1 200   4   8   1 |   g = label6
+   5   3  18   5   6   0   2 198   3   0 |   h = label7
+   1   2   2   1   0  11   3   1 219   0 |   i = label8
+   0   1   0   3   0  12   0   0   0 224 |   j = label9
+
