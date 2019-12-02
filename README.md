@@ -40,18 +40,18 @@ one of the main areas of the `loader.py` file).
   ### Objectives and Milestones of the project
 
   - [X] Data preprocessing
-  - [ ] Decision Trees cross-validation
-  - [ ] Decision Trees train-test of different sizes
-  - [ ] Neural Network overfitting analysis
-  - [ ] Neural Network cross-validation
-  - [ ] Neural Network train-test of different sizes
-  - [ ] Neural Network overfitting analysis
-  - [ ] Tables answering "Variation in performance with size of the training and testing sets"
-  - [ ] Tables answering "Variation in performance with change in the learning paradigm"
-  - [ ] Tables answering "Variation in performance with varying learning parameters in Decision Trees"
-  - [ ] Tables answering "Variation in performance with varying learning parameters in Neural Network"
-  - [ ] Tables answering "Variation in performance according to different metrics"  
-  - [ ] MSc Research Question
+  - [X] Decision Trees cross-validation
+  - [X] Decision Trees train-test of different sizes
+  - [X] Neural Network overfitting analysis
+  - [X] Neural Network cross-validation
+  - [X] Neural Network train-test of different sizes
+  - [X] Neural Network overfitting analysis
+  - [X] Tables answering "Variation in performance with size of the training and testing sets"
+  - [X] Tables answering "Variation in performance with change in the learning paradigm"
+  - [X] Tables answering "Variation in performance with varying learning parameters in Decision Trees"
+  - [X] Tables answering "Variation in performance with varying learning parameters in Neural Network"
+  - [X] Tables answering "Variation in performance according to different metrics"  
+  - [X] MSc Research Question
   ---
 
 ### How to contribute
