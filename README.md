@@ -33,7 +33,10 @@ were too big for GitHub. The base datasets can be found following the link
 http://www.macs.hw.ac.uk/~ek19/data/. Another version of the files is also
 available if you do not want to perform the transformation yourself but rather
 obtain all the created files directly (the files can still be recreated uncommenting
-one of the main areas of the `loader.py` file).
+one of the main areas of the `loader.py` file). The datasets used for this second
+coursework can be found at: https://www.dropbox.com/s/habmey8caojkawv/data_cw2_nn.zip?dl=0.
+
+The results for the decision trees part can be found under https://www.dropbox.com/s/zoi9743jnr60aeg/dm_cw2_trees.zip?dl=0.
 
   ---
 
